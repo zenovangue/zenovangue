@@ -1,0 +1,30 @@
+name: Automated Expressive Profile Synchronization Pipeline
+
+on:
+  schedule:
+    # Trigger the automation matrix daily at 00:00 UTC (GMT+0)
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    # Enable explicit manual runtime triggering via the GitHub Actions UI
+
+permissions:
+  contents: write
+  statuses: write
+
+jobs:
+  execute-matrix-sync:
+    name: Generate Material You Hardware Grid Profile
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Fetch Core Infrastructure Repository Context
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Initialize Material 3 Design Compiler Pipeline
+        uses: metawka/expressive-profile@main
+        with:
+          # Runtime constraints and token pass-through for layout compilation
+          token: ${{ secrets.GITHUB_TOKEN }}
