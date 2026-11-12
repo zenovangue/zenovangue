@@ -1,7 +1,7 @@
-<img src="./assets/banner.svg" alt="Zeno Vangue" width="100%">
+<img src="./assets/banner.svg" alt="zenovangue" width="100%">
 
 <p align="center">
-  <a href="mailto:contact@zenovangue.com"><img src="https://img.shields.io/badge/EMAIL-contact%40zenovangue.com-8b5cf6?style=for-the-badge&labelColor=000000" alt="Email"></a>
+  <a href="mailto:contact@zenovangue.com"><img src="https://img.shields.io/badge/EMAIL-contact%40zenovangue.com-8b5cf6?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCcgZmlsbD0nd2hpdGUnPjxwYXRoIGQ9J00yMCA0SDRhMiAyIDAgMCAwLTIgMnYxMmEyIDIgMCAwIDAgMiAyaDE2YTIgMiAwIDAgMCAyLTJWNmEyIDIgMCAwIDAtMi0yem0wIDQtOCA1LTgtNVY2bDggNSA4LTV2MnonLz48L3N2Zz4%3D&logoColor=white&labelColor=000000" alt="Email"></a>
   <img src="https://img.shields.io/badge/DISCORD-zenovangue-8b5cf6?style=for-the-badge&logo=discord&logoColor=white&labelColor=000000" alt="Discord">
   <img src="https://img.shields.io/badge/HOURS-CET%20%2F%20CEST-8b5cf6?style=for-the-badge&labelColor=000000" alt="Working hours">
 </p>
@@ -21,7 +21,8 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 | **Systems** | Rust execution engines, shared-memory IPC, zero-copy data paths, kernel-bypass I/O |
 | **Quant research** | Regime detection (HMM, HSMM, Kalman), walk-forward validation, CPCV, Monte Carlo |
 | **Trading platforms** | MT5 (MQL5), cTrader (cAlgo), NinjaTrader, TradingView (Pine Script), NautilusTrader |
-| **Web and desktop** | Landing pages, dashboards, Tauri desktop applications |
+| **Full-stack web** | Complete websites: frontend, backend APIs and databases |
+| **Desktop** | Tauri desktop applications, PySide6 trading workstations |
 
 ---
 
@@ -40,6 +41,10 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 <p>
   <img src="https://skillicons.dev/icons?i=linux,git,github,vscode,docker,pytorch&theme=dark" alt="Tools and environment" height="48"><img src="./assets/claude.svg" alt="Claude" height="48">
 </p>
+
+### Backend and databases
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,postgres,mysql,mongodb,redis,sqlite,nginx&theme=dark" alt="Backend and databases">
 
 ### Libraries, frameworks and data
 
@@ -82,14 +87,21 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 - Shared risk logic across MT5, NinjaTrader and cTrader
 - Backtesting and research platforms (Go, Python, Parquet) with proxy-aware data downloaders
 
-### Web and desktop development
+### Full-stack web development
 
+- Complete websites from design to deployment: frontend, backend and database
+- Frontend: semantic HTML, modern CSS, TypeScript, React, responsive and accessible layouts
+- Backend: REST APIs, authentication, validation, background jobs, WebSocket and real-time data feeds
+- Databases: relational schema design (PostgreSQL, MySQL, SQLite), document stores, caching with Redis
+- Data-heavy dashboards for trading and research, with live charts and tables
 - Cinematic landing pages: scroll-driven animation, 3D, looping video heroes
-- React and TypeScript component development
+
+### Desktop development
+
 - Desktop applications with Tauri 2, Rust and Svelte
 - PySide6 trading workstations
-- Semantic HTML, modern CSS, responsive and accessible layouts
-- Data-heavy dashboards for trading and research
+- Native-feeling UIs over local data pipelines and trading APIs
+
 
 ---
 
@@ -128,7 +140,7 @@ A pure-Rust execution framework designed to avoid kernel scheduling overhead on 
 
 European time (CET / CEST). Async-friendly and documentation-first. Email or Discord, usually within one business day.
 
-**Open to:** trading-system builds, Rust engineering, quant infrastructure, landing pages and web applications.
+**Open to:** trading-system builds, Rust engineering, quant infrastructure, full websites with backend and database, landing pages and web applications.
 
 ---
 
