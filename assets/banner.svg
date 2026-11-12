@@ -1,80 +1,170 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Zeno Vangue - Systems Architect, Quant Infrastructure, Rust">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Zeno Vangue - Systems Architect, Quant Infrastructure, Rust" xmlns:c2pa="http://c2pa.org/manifest">
   <defs>
-    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="55"/>
-    </filter>
+    <style>
+      @font-face { font-family: "ZVSans"; font-weight: 700; src: url(data:font/woff2;base64,d09GMgABAAAAAASMAA8AAAAAB+gAAAQyAASBSAAAAAAAAAAAAAAAAAAAAAAAAAAAG4IiHDAGYD9TVEFUKgBsEQgKhjiFVQE2AiQDKAsWAAQgBXwHIAwHG2kGyB6FcePT0Ihy0jzmWLZMRE+JB/h1/507c9/HvP+9EUYC0GClddosNCpaEWqbwAO45dXL8hYmoP8B0mFPXFM/cmscVoIPdz4dQXRQUFAF2ABHE52tfVzaZA06INswdnEZRxSQaau32Eff1BaYpyZFhwLzzGi/EGCe5xUbDswi/BAtc/2iw4EQlSNKpIMiif1cTsLNUDFF4/+7DS/3/n+TYng0+v/7urbCsmR/bG2hPREERbCxnMK0MFUgFoNikWWnQjInrMuwO/yWWkthWgf7vmDsvWh1jPeQq5AjVwN3Etjn6tJj2ieFoKkHM0cPMDOCTeC0vGjM30Fgp5AToHxN7IrXCdQVBWFGjhqoraZkZUBgLGJ9Pw8hn1wFSJCihlRADdEEoEqFVKKucZx58RMgQtx/SUPhj+BGDOrWoV2jmgItFoSW3ytHkIEaKMcfEHYCEGvWSCRSe2ZCYdaQlh2XkZKSEZ+SjNmGbA3J6hSSVSRhLXmohlXlJm/HYEIWFjv+JdjpGCwmK0bZjsNi8yVou1NowM1CLxRq3A4sts4EFmGHQj3rOHs6CZu20PPb2G9XKt0ck4UXYhQy0ciLdahS8WBJKLe4ND5u/FRyM3Zcmi/MF21CsaJQzyZtx9xqlZB5o+dAyGqspzF0JV7EQAvP2G+ehk5rhltBRJLk4/yWqlgdMRHDhHRsFC8fQwd60OjLYMdlUePTLD296BGrX+cPht15Rtr5H8H/DdPqifq21T6S4xblbZl6DEtscV2O1jVO5jKpIc52rJq041ynrBGUdpKwcHpQklGBDrP1bd0mhQ/6NipvuXUMPiSJ12+4/qqRYex26OQN6xglXZtZMdx4PiO6UMoWpgj6sfaGxzyCqaY8sKJW7/ey4t+9UwW4Hys6Bl+1RrGRbb2fYCKpK6e2Yn6yt2Km2CnTnNv4rUGvKmQXxbf55/Mw8q9zr0JOoJDR3bCvkV01TeJkNf0RQ2TY5a6HNsM3jmEILMg/1Np9v+5uXRLiYG8yPKxtar6sDUEc6gpBPq9LxHqtcJTvCAqWb49xdPVKc1fp9PZR7kxyg4SiDmQp0tG+RvbiTmyGhiLpPuWqxcH3L7Y1JrZYuKSIlJCmCrg8VMRa1HoJgbW6P1blwrHhgv8fKzp6KJD3zcF8+FbZ9bCyZKOxrWy53CvVXqXZv618GerWbjz5hbA9WeoI9Azvuzlkt2B7+akrwMZNEBA3G3pobMh4UPT8WpQWPgLg7Xx/LuATy/Y9xP+Q8TvefqBAAgKP2Ju7VULI9C36NVuWGzvEQ7j1bWBa3AQj4lkTfFR+B8W4KPeRE8NeICDTVQqPLxZ1LmGHWJxqSChIlGmoFCjR/pR5RXobyku4aBEi+eHUV6JY0byYChIgUCxrfgLECeUlmgO/3IfSFiGULxzgf2vtadUXEf/zhlsGAAAA) format("woff2"); }
+      @font-face { font-family: "ZVMono"; font-weight: 500; src: url(data:font/woff2;base64,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) format("woff2"); }
 
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#a78bfa" stroke-opacity="0.12" stroke-width="1"/>
+      .title { font-family: "ZVSans","Manrope","Segoe UI","Helvetica Neue",Arial,sans-serif; font-weight: 700; font-size: 76px; letter-spacing: -2px; }
+      .role  { font-family: "ZVMono","JetBrains Mono","SFMono-Regular",Consolas,Menlo,monospace; font-weight: 500; font-size: 20px; letter-spacing: 0.4px; fill: #c4b5fd; opacity: 0; }
+
+      .blob { transform-box: fill-box; transform-origin: center; animation: drift var(--d) ease-in-out infinite; animation-delay: var(--l); }
+      @keyframes drift {
+        0%, 100% { transform: translate(0, 0) scale(1); }
+        50% { transform: translate(var(--x), var(--y)) scale(1.1); }
+      }
+
+      .grid { animation: gridmove 30s linear infinite; }
+      @keyframes gridmove { to { transform: translateX(-40px); } }
+
+      .flow { stroke-dasharray: 3 11; animation: flow 8s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -56; } }
+
+      .halo { transform-box: fill-box; transform-origin: center; opacity: 0; animation: pulse 6s ease-in-out infinite; animation-delay: var(--l); }
+      @keyframes pulse {
+        0%, 100% { opacity: 0; transform: scale(1); }
+        50% { opacity: 0.35; transform: scale(3); }
+      }
+
+      .p { opacity: 0; animation: rise var(--d) ease-in-out infinite; animation-delay: var(--l); }
+      @keyframes rise {
+        0% { opacity: 0; transform: translateY(0); }
+        20% { opacity: 0.7; }
+        80% { opacity: 0.45; }
+        100% { opacity: 0; transform: translateY(-110px); }
+      }
+
+      .in { opacity: 0; animation: inup 1.6s cubic-bezier(0.22, 0.8, 0.3, 1) 0.2s forwards; }
+      @keyframes inup { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+
+      .bar { transform-box: fill-box; transform-origin: 0 50%; transform: scaleX(0); animation: grow 1.8s cubic-bezier(0.22, 0.8, 0.3, 1) 0.9s forwards; }
+      @keyframes grow { to { transform: scaleX(1); } }
+
+      .r { animation: swap 12s ease-in-out infinite; }
+      .r1 { animation-delay: 1.2s; }
+      .r2 { animation-delay: 5.2s; }
+      .r3 { animation-delay: 9.2s; }
+      @keyframes swap {
+        0% { opacity: 0; transform: translateY(8px); }
+        6%, 30% { opacity: 1; transform: translateY(0); }
+        36%, 100% { opacity: 0; transform: translateY(-8px); }
+      }
+
+      .scan { animation: scan 10s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+      @keyframes scan { from { transform: translateX(-500px); } to { transform: translateX(1300px); } }
+
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+        .in { opacity: 1; }
+        .bar { transform: scaleX(1); }
+        .r1 { opacity: 1; }
+      }
+    </style>
+
+    <radialGradient id="gA"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.80"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="gB"><stop offset="0" stop-color="#6d28d9" stop-opacity="0.75"/><stop offset="1" stop-color="#6d28d9" stop-opacity="0"/></radialGradient>
+    <radialGradient id="gC"><stop offset="0" stop-color="#c4b5fd" stop-opacity="0.50"/><stop offset="1" stop-color="#c4b5fd" stop-opacity="0"/></radialGradient>
+    <radialGradient id="gD"><stop offset="0" stop-color="#4c1d95" stop-opacity="0.70"/><stop offset="1" stop-color="#4c1d95" stop-opacity="0"/></radialGradient>
+
+    <pattern id="gridp" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#a78bfa" stroke-opacity="0.11" stroke-width="1"/>
     </pattern>
+    <linearGradient id="gf" x1="0" y1="0" x2="1" y2="0"><stop offset="0.25" stop-color="#fff" stop-opacity="0"/><stop offset="0.7" stop-color="#fff"/></linearGradient>
+    <mask id="gm"><rect width="1200" height="320" fill="url(#gf)"/></mask>
 
-    <linearGradient id="gridFadeGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0.25" stop-color="#fff" stop-opacity="0"/>
-      <stop offset="0.7" stop-color="#fff" stop-opacity="1"/>
-    </linearGradient>
-    <mask id="gridMask">
-      <rect width="1200" height="300" fill="url(#gridFadeGrad)"/>
-    </mask>
-
-    <linearGradient id="vignetteLeft" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#000" stop-opacity="0.92"/>
-      <stop offset="0.5" stop-color="#000" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#000" stop-opacity="0"/>
-    </linearGradient>
-
-    <linearGradient id="vignetteBottom" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0.7" stop-color="#000" stop-opacity="0"/>
-      <stop offset="1" stop-color="#000" stop-opacity="0.9"/>
-    </linearGradient>
-
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#8b5cf6"/>
-      <stop offset="1" stop-color="#c4b5fd"/>
-    </linearGradient>
+    <linearGradient id="vl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000" stop-opacity="0.94"/><stop offset="0.5" stop-color="#000" stop-opacity="0.4"/><stop offset="1" stop-color="#000" stop-opacity="0"/></linearGradient>
+    <linearGradient id="vb" x1="0" y1="0" x2="0" y2="1"><stop offset="0.72" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.9"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#c4b5fd"/></linearGradient>
+    <linearGradient id="tg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ddd6fe"/></linearGradient>
+    <linearGradient id="sc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a78bfa" stop-opacity="0"/><stop offset="0.5" stop-color="#c4b5fd" stop-opacity="0.9"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="14"/></filter>
   </defs>
 
-  <!-- base -->
-  <rect width="1200" height="300" fill="#000000"/>
+  <rect width="1200" height="320" fill="#000"/>
 
-  <!-- purple mesh -->
-  <g filter="url(#blur)">
-    <ellipse cx="1010" cy="40" rx="300" ry="140" fill="#7c3aed" fill-opacity="0.85"/>
-    <ellipse cx="760" cy="270" rx="280" ry="110" fill="#5b21b6" fill-opacity="0.80"/>
-    <ellipse cx="1150" cy="250" rx="190" ry="100" fill="#a78bfa" fill-opacity="0.60"/>
-    <ellipse cx="560" cy="60" rx="160" ry="70" fill="#4c1d95" fill-opacity="0.55"/>
-    <ellipse cx="80" cy="330" rx="240" ry="80" fill="#4c1d95" fill-opacity="0.45"/>
+  <!-- animated purple mesh -->
+  <ellipse class="blob" cx="1020" cy="30" rx="420" ry="200" fill="url(#gA)" style="--x:-70px;--y:30px;--d:19s;--l:0s"/>
+  <ellipse class="blob" cx="760" cy="300" rx="400" ry="170" fill="url(#gB)" style="--x:60px;--y:-30px;--d:23s;--l:-6s"/>
+  <ellipse class="blob" cx="1160" cy="270" rx="280" ry="150" fill="url(#gC)" style="--x:-50px;--y:-24px;--d:17s;--l:-3s"/>
+  <ellipse class="blob" cx="560" cy="50" rx="260" ry="120" fill="url(#gD)" style="--x:50px;--y:26px;--d:26s;--l:-10s"/>
+  <ellipse class="blob" cx="60" cy="350" rx="340" ry="120" fill="url(#gD)" style="--x:70px;--y:-20px;--d:28s;--l:-4s"/>
+
+  <!-- drifting grid -->
+  <g mask="url(#gm)"><rect class="grid" x="0" y="0" width="1240" height="320" fill="url(#gridp)"/></g>
+
+  <!-- network -->
+  <g stroke="#c4b5fd" stroke-opacity="0.38" stroke-width="1" fill="none" class="flow">
+    <polyline points="650,240 735,175 835,205 915,115 1025,155 1115,80"/>
+    <polyline points="735,175 775,90 915,115"/>
+    <polyline points="835,205 895,270 1025,230 1025,155"/>
+    <polyline points="1025,230 1130,195 1115,80"/>
+    <polyline points="915,115 1025,230"/>
+  </g>
+  <g>
+    <circle class="halo" cx="650" cy="240" r="5" fill="#a78bfa" style="--l:0.0s"/>
+    <circle class="halo" cx="735" cy="175" r="5.5" fill="#a78bfa" style="--l:-0.9s"/>
+    <circle class="halo" cx="835" cy="205" r="5" fill="#a78bfa" style="--l:-1.8s"/>
+    <circle class="halo" cx="915" cy="115" r="6.5" fill="#a78bfa" style="--l:-2.7s"/>
+    <circle class="halo" cx="1025" cy="155" r="5.5" fill="#a78bfa" style="--l:-3.6s"/>
+    <circle class="halo" cx="1115" cy="80" r="5" fill="#a78bfa" style="--l:-4.5s"/>
+    <circle class="halo" cx="775" cy="90" r="4.5" fill="#a78bfa" style="--l:-5.4s"/>
+    <circle class="halo" cx="895" cy="270" r="4.5" fill="#a78bfa" style="--l:-6.3s"/>
+    <circle class="halo" cx="1025" cy="230" r="5" fill="#a78bfa" style="--l:-7.2s"/>
+    <circle class="halo" cx="1130" cy="195" r="4.5" fill="#a78bfa" style="--l:-8.1s"/>
+  </g>
+  <g fill="#ede9fe">
+    <circle cx="650" cy="240" r="3"/>
+    <circle cx="735" cy="175" r="3.5"/>
+    <circle cx="835" cy="205" r="3"/>
+    <circle cx="915" cy="115" r="4.5"/>
+    <circle cx="1025" cy="155" r="3.5"/>
+    <circle cx="1115" cy="80" r="3"/>
+    <circle cx="775" cy="90" r="2.5"/>
+    <circle cx="895" cy="270" r="2.5"/>
+    <circle cx="1025" cy="230" r="3"/>
+    <circle cx="1130" cy="195" r="2.5"/>
   </g>
 
-  <!-- grid -->
-  <rect width="1200" height="300" fill="url(#grid)" mask="url(#gridMask)"/>
-
-  <!-- node network -->
-  <g stroke="#c4b5fd" stroke-opacity="0.40" stroke-width="1" fill="none">
-    <polyline points="650,225 735,160 835,190 915,100 1025,140 1115,65"/>
-    <polyline points="735,160 775,75 915,100"/>
-    <polyline points="835,190 895,255 1025,215 1025,140"/>
-    <polyline points="1025,215 1130,180 1115,65"/>
-    <polyline points="915,100 1025,215"/>
-  </g>
-  <g fill="#ddd6fe">
-    <circle cx="650" cy="225" r="3"/>
-    <circle cx="735" cy="160" r="3.5"/>
-    <circle cx="835" cy="190" r="3"/>
-    <circle cx="915" cy="100" r="4.5"/>
-    <circle cx="1025" cy="140" r="3.5"/>
-    <circle cx="1115" cy="65" r="3"/>
-    <circle cx="775" cy="75" r="2.5"/>
-    <circle cx="895" cy="255" r="2.5"/>
-    <circle cx="1025" cy="215" r="3"/>
-    <circle cx="1130" cy="180" r="2.5"/>
+  <!-- floating particles -->
+  <g>
+    <circle class="p" cx="711" cy="158" r="1.8" fill="#ddd6fe" style="--d:9s;--l:-2s"/>
+    <circle class="p" cx="928" cy="144" r="1.5" fill="#ddd6fe" style="--d:9s;--l:-6s"/>
+    <circle class="p" cx="418" cy="142" r="1.8" fill="#ddd6fe" style="--d:15s;--l:-2s"/>
+    <circle class="p" cx="626" cy="143" r="1.8" fill="#ddd6fe" style="--d:9s;--l:-3s"/>
+    <circle class="p" cx="608" cy="281" r="1" fill="#ddd6fe" style="--d:15s;--l:-1s"/>
+    <circle class="p" cx="606" cy="131" r="1.2" fill="#ddd6fe" style="--d:13s;--l:-13s"/>
+    <circle class="p" cx="527" cy="258" r="1" fill="#ddd6fe" style="--d:13s;--l:-5s"/>
+    <circle class="p" cx="485" cy="268" r="1.2" fill="#ddd6fe" style="--d:14s;--l:-3s"/>
+    <circle class="p" cx="940" cy="136" r="1" fill="#ddd6fe" style="--d:12s;--l:-15s"/>
+    <circle class="p" cx="1076" cy="256" r="1.8" fill="#ddd6fe" style="--d:14s;--l:-14s"/>
+    <circle class="p" cx="979" cy="236" r="1.5" fill="#ddd6fe" style="--d:13s;--l:-7s"/>
+    <circle class="p" cx="564" cy="298" r="1.2" fill="#ddd6fe" style="--d:10s;--l:-9s"/>
+    <circle class="p" cx="917" cy="246" r="1.5" fill="#ddd6fe" style="--d:16s;--l:-9s"/>
+    <circle class="p" cx="1003" cy="138" r="1" fill="#ddd6fe" style="--d:15s;--l:-5s"/>
+    <circle class="p" cx="1155" cy="207" r="1.2" fill="#ddd6fe" style="--d:16s;--l:-13s"/>
+    <circle class="p" cx="420" cy="291" r="1" fill="#ddd6fe" style="--d:14s;--l:-10s"/>
+    <circle class="p" cx="1091" cy="209" r="1.8" fill="#ddd6fe" style="--d:16s;--l:-2s"/>
+    <circle class="p" cx="475" cy="189" r="1.8" fill="#ddd6fe" style="--d:10s;--l:-1s"/>
   </g>
 
   <!-- contrast layers -->
-  <rect width="1200" height="300" fill="url(#vignetteLeft)"/>
-  <rect width="1200" height="300" fill="url(#vignetteBottom)"/>
+  <rect width="1200" height="320" fill="url(#vl)"/>
+  <rect width="1200" height="320" fill="url(#vb)"/>
 
-  <!-- text -->
-  <text x="80" y="140" fill="#ffffff" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="70" font-weight="700" letter-spacing="-1.5">Zeno Vangue</text>
-  <text x="83" y="184" fill="#c4b5fd" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="19" letter-spacing="0.5">Systems Architect  /  Quant Infrastructure  /  Rust</text>
-  <rect x="83" y="208" width="72" height="3" rx="1.5" fill="url(#accent)"/>
-</svg>
+  <!-- scan line -->
+  <rect class="scan" x="0" y="318" width="500" height="2" fill="url(#sc)"/>
+
+  <!-- title -->
+  <g class="in">
+    <text class="title" x="80" y="152" fill="#8b5cf6" opacity="0.45" filter="url(#glow)">Zeno Vangue</text>
+    <text class="title" x="80" y="152" fill="url(#tg)">Zeno Vangue</text>
+  </g>
+
+  <!-- rotating roles -->
+  <g>
+    <text class="role r r1" x="82" y="205"><tspan fill="#8b5cf6">&gt; </tspan>Systems Architect</text>
+    <text class="role r r2" x="82" y="205"><tspan fill="#8b5cf6">&gt; </tspan>Quant Infrastructure Engineer</text>
+    <text class="role r r3" x="82" y="205"><tspan fill="#8b5cf6">&gt; </tspan>Rust · Low-latency · Execution</text>
+  </g>
+
+  <rect class="bar" x="83" y="234" width="72" height="3" rx="1.5" fill="url(#accent)"/>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpkNDg0ODI5MS0wNWUwLTQ4YTMtOGQ4YS0yNjYzNWIxMTFlMzcAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaFCCgVx6ZQTpN1Q57BbAbPkAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDozNjBjNDUxMS02ZDZhLTQyODQtODAyMi0yNGZjNjhiYzc4NTZscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoaX/UdDvCIocG3od/KkqKrgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggiBhDr8puFoG4JGrUhaivYwTXLSHdoey1oAKb6YcaZCOkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaJqCVbNv2OfbVRjozkQHz8AAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIC6XUa8StR16/ipe4S0SLJcrBIuQGeDj7GYK7fulVn9hZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GTjvZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmQ0ODQ4MjkxLTA1ZTAtNDhhMy04ZDhhLTI2NjM1YjExMWUzNy9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjE0ZjQ2YjMwLWMwYTAtNGI5OS1hZjJlLTk5Zjc2Y2U4ODA3MXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCIGEOvym4WgbgkatSFqK9jBNctId2h7LWgApvphxpkI6JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggOJqnHswCzNg2Zn49+EPTRCIWEdPq5ThxoEbLJ2ALv6OiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggcJ/z9axgnSueD/cDcNqH/uCTl6mLbAaNtvwPbU6xgEp0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQEZYbgHlLEAtDWsfx/fjf+f6SDlcXaPqzJWp9P+IcbBY632yjRhoSihCzN4rRDb/S75cEhUS/KLs2n8aXSY66IM=</c2pa:manifest></metadata></svg>
