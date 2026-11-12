@@ -1,1 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Zeno Vangue - Systems Architect, Quant Infrastructure, Rust">
+  <defs>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="55"/>
+    </filter>
 
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#a78bfa" stroke-opacity="0.12" stroke-width="1"/>
+    </pattern>
+
+    <linearGradient id="gridFadeGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0.25" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.7" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="gridMask">
+      <rect width="1200" height="300" fill="url(#gridFadeGrad)"/>
+    </mask>
+
+    <linearGradient id="vignetteLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="0.92"/>
+      <stop offset="0.5" stop-color="#000" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="vignetteBottom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0.7" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+  </defs>
+
+  <!-- base -->
+  <rect width="1200" height="300" fill="#000000"/>
+
+  <!-- purple mesh -->
+  <g filter="url(#blur)">
+    <ellipse cx="1010" cy="40" rx="300" ry="140" fill="#7c3aed" fill-opacity="0.85"/>
+    <ellipse cx="760" cy="270" rx="280" ry="110" fill="#5b21b6" fill-opacity="0.80"/>
+    <ellipse cx="1150" cy="250" rx="190" ry="100" fill="#a78bfa" fill-opacity="0.60"/>
+    <ellipse cx="560" cy="60" rx="160" ry="70" fill="#4c1d95" fill-opacity="0.55"/>
+    <ellipse cx="80" cy="330" rx="240" ry="80" fill="#4c1d95" fill-opacity="0.45"/>
+  </g>
+
+  <!-- grid -->
+  <rect width="1200" height="300" fill="url(#grid)" mask="url(#gridMask)"/>
+
+  <!-- node network -->
+  <g stroke="#c4b5fd" stroke-opacity="0.40" stroke-width="1" fill="none">
+    <polyline points="650,225 735,160 835,190 915,100 1025,140 1115,65"/>
+    <polyline points="735,160 775,75 915,100"/>
+    <polyline points="835,190 895,255 1025,215 1025,140"/>
+    <polyline points="1025,215 1130,180 1115,65"/>
+    <polyline points="915,100 1025,215"/>
+  </g>
+  <g fill="#ddd6fe">
+    <circle cx="650" cy="225" r="3"/>
+    <circle cx="735" cy="160" r="3.5"/>
+    <circle cx="835" cy="190" r="3"/>
+    <circle cx="915" cy="100" r="4.5"/>
+    <circle cx="1025" cy="140" r="3.5"/>
+    <circle cx="1115" cy="65" r="3"/>
+    <circle cx="775" cy="75" r="2.5"/>
+    <circle cx="895" cy="255" r="2.5"/>
+    <circle cx="1025" cy="215" r="3"/>
+    <circle cx="1130" cy="180" r="2.5"/>
+  </g>
+
+  <!-- contrast layers -->
+  <rect width="1200" height="300" fill="url(#vignetteLeft)"/>
+  <rect width="1200" height="300" fill="url(#vignetteBottom)"/>
+
+  <!-- text -->
+  <text x="80" y="140" fill="#ffffff" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="70" font-weight="700" letter-spacing="-1.5">Zeno Vangue</text>
+  <text x="83" y="184" fill="#c4b5fd" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="19" letter-spacing="0.5">Systems Architect  /  Quant Infrastructure  /  Rust</text>
+  <rect x="83" y="208" width="72" height="3" rx="1.5" fill="url(#accent)"/>
+</svg>
