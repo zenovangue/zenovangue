@@ -10,7 +10,7 @@
 
 I am an independent engineer and algorithmic trader. I build trading infrastructure end to end: research tooling, execution engines, backtesting platforms, and the interfaces that sit on top of them.
 
-My approach is systems-first. I prefer explicit architecture, measurable targets, strict validation, and code that is easy to reason about under load. I use AI assistants such as Claude as part of the engineering workflow, with structured specifications and review loops rather than ad hoc prompting.
+My approach is systems-first. I prefer explicit architecture, measurable targets, strict validation, and code that is easy to reason about under load.
 
 > Low-latency execution logic, grounded in statistical rigor and hardware-aware design.
 
@@ -22,7 +22,6 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 | **Quant research** | Regime detection (HMM, HSMM, Kalman), walk-forward validation, CPCV, Monte Carlo |
 | **Trading platforms** | MT5 (MQL5), cTrader (cAlgo), NinjaTrader, TradingView (Pine Script), NautilusTrader |
 | **Web and desktop** | Landing pages, dashboards, Tauri desktop applications |
-| **AI-assisted engineering** | Phased master prompts and review loops for building complete software with LLMs |
 
 ---
 
@@ -38,14 +37,8 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 
 ### Tools and environment
 
-<img src="https://skillicons.dev/icons?i=linux,git,github,vscode,docker,pytorch&theme=dark" alt="Tools and environment">
-
-### AI tooling
-
 <p>
-  <img src="https://img.shields.io/badge/Claude-000000?style=for-the-badge&logo=claude&logoColor=D97757" alt="Claude">
-  <img src="https://img.shields.io/badge/Anthropic-000000?style=for-the-badge&logo=anthropic&logoColor=white" alt="Anthropic">
-  <img src="https://img.shields.io/badge/Prompt_Engineering-000000?style=for-the-badge&logo=openai&logoColor=a78bfa" alt="Prompt Engineering">
+  <img src="https://skillicons.dev/icons?i=linux,git,github,vscode,docker,pytorch&theme=dark" alt="Tools and environment" height="48"><img src="./assets/claude.svg" alt="Claude" height="48">
 </p>
 
 ### Libraries, frameworks and data
@@ -98,15 +91,6 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 - Semantic HTML, modern CSS, responsive and accessible layouts
 - Data-heavy dashboards for trading and research
 
-### AI-assisted engineering and prompt engineering
-
-- Phased specifications with acceptance criteria per phase
-- Constraint-driven prompts: explicit stack, file layout, performance targets and failure modes
-- Generator scripts that output complete project trees from a single file
-- Root-cause debugging prompts for ML and quant pipelines
-- Review loops: iterating specifications against real output until results are deterministic
-- Daily use of Claude for design review, code generation and refactoring, always followed by manual verification
-
 ---
 
 ## Engineering Principles
@@ -144,7 +128,7 @@ A pure-Rust execution framework designed to avoid kernel scheduling overhead on 
 
 European time (CET / CEST). Async-friendly and documentation-first. Email or Discord, usually within one business day.
 
-**Open to:** trading-system builds, Rust engineering, quant infrastructure, landing pages and web applications, prompt engineering.
+**Open to:** trading-system builds, Rust engineering, quant infrastructure, landing pages and web applications.
 
 ---
 
