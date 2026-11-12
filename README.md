@@ -1,213 +1,126 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d12,50:2d2d3a,100:7c3aed&height=220&section=header&text=Zeno%20Vangue&fontColor=e5e5ec&fontSize=56&fontAlignY=38&desc=Systems%20%7C%20Quant%20Infrastructure%20%7C%20Web%20%7C%20Prompt%20Engineering&descAlignY=60&descSize=16" alt="Zeno Vangue banner" width="100%">
-</p>
+<img src="./assets/banner.svg" alt="Zeno Vangue" width="100%">
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=A78BFA&center=true&vCenter=true&width=760&lines=Principal+Systems+Architect;Quantitative+Infrastructure+Engineer;Rust+%7C+Low-Latency+%7C+Execution+Systems;Web+Developer+%26+Prompt+Engineer" alt="Typing animation">
+  <a href="mailto:contact@zenovangue.com"><img src="https://img.shields.io/badge/EMAIL-contact%40zenovangue.com-8b5cf6?style=flat-square&labelColor=000000" alt="Email"></a>
+  <img src="https://img.shields.io/badge/DISCORD-zenovangue-8b5cf6?style=flat-square&logo=discord&logoColor=white&labelColor=000000" alt="Discord">
+  <img src="https://img.shields.io/badge/HOURS-CET%20%2F%20CEST-8b5cf6?style=flat-square&labelColor=000000" alt="Working hours">
+  <a href="https://github.com/zenovangue?tab=repositories"><img src="https://img.shields.io/badge/REPOS-8-8b5cf6?style=flat-square&labelColor=000000" alt="Repositories"></a>
 </p>
 
-<p align="center">
-  <a href="mailto:contact@zenovangue.com"><img src="https://img.shields.io/badge/Email-contact%40zenovangue.com-7c3aed?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <img src="https://img.shields.io/badge/Discord-zenovangue-4b4b5c?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
-  <img src="https://img.shields.io/badge/Time_Zone-CET%20%2F%20CEST-2d2d3a?style=for-the-badge&logo=clockify&logoColor=white" alt="Time zone">
-  <img src="https://img.shields.io/badge/Based_in-Morocco-7c3aed?style=for-the-badge" alt="Morocco">
-</p>
+## About
 
----
+Independent engineer and algorithmic trader. I build trading infrastructure end to end: research tooling, execution engines, backtesting platforms, and the interfaces on top of them.
 
-<img align="right" src="https://github.com/zenovangue.png?size=200" width="150" alt="Zeno Vangue avatar">
+> Low-latency execution logic, grounded in statistical rigor and hardware-aware design.
 
-## About Me
+**Focus areas**
 
-> *"Sovereign systems. Low-latency execution logic. Forging nanosecond infrastructure at the absolute intersection of 19th-century statistical rigor and predictive hardware computing."*
-
-I am an independent systems engineer and algorithmic trader based in Morocco. I build trading infrastructure end to end: quantitative research, low-latency execution engines, backtesting platforms, and the web interfaces that sit on top of them.
-
-My work sits at the intersection of four disciplines:
-
-- **Systems engineering:** Rust-first, memory-aware, latency-obsessed.
-- **Quantitative research:** regime detection, state-space models, and strict out-of-sample validation.
-- **Product and web:** fast, cinematic, production-grade interfaces.
-- **AI-assisted engineering:** structured, phased prompt design for building complex software with LLMs.
-
-<br clear="right">
-
----
-
-## Availability and Working Hours
-
-| | |
+| Area | What I work on |
 | :--- | :--- |
-| **Time zone** | Morocco-based, working on **European time (CET / CEST)** |
-| **Overlap** | Full overlap with European business hours |
-| **Response time** | Email and Discord, usually within one business day |
-| **Work style** | Independent, async-friendly, documentation-first |
-| **Open to** | Quant infrastructure, trading-system builds, Rust engineering, landing pages and web apps, prompt engineering |
+| **Systems** | Rust execution engines, shared-memory IPC, zero-copy data paths, kernel-bypass I/O |
+| **Quant research** | Regime detection (HMM / HSMM / Kalman), walk-forward validation, CPCV, Monte Carlo |
+| **Platforms** | MT5 (MQL5), cTrader (cAlgo), NinjaTrader, TradingView (Pine Script), NautilusTrader |
+| **Web** | Landing pages, dashboards, desktop apps with Tauri |
+| **AI-assisted engineering** | Phased master prompts for building complete software with LLMs |
 
 ---
 
-## Core Infrastructure Stack
+## Tech Stack
 
-| Architecture Layer | Technologies & Frameworks |
-| :--- | :--- |
-| **Low-Latency & Memory** | `Rust` (Stable Core) • `Kernel-Bypass (SPDK/DMA)` • `Zero-Copy FlatBuffers` • `memmap2` • `mlock` |
-| **Deep Learning & Statistics** | Pure Rust `Burn` Framework • Expectation-Maximization `GMM` • Dynamic Duration `HSMM` • `HMM` • `Kalman Filter` |
-| **Hardware Optimization** | Distributed `wgpu` Compute Shaders • Parallel `Walk-Forward Optimization (WFO)` • `CPCV` |
-| **Trading Platforms** | `MetaTrader 5 (MQL5)` • `NinjaTrader` • `cTrader (cAlgo C#)` • `TradingView (Pine Script)` • `NautilusTrader` |
-| **Data & Research** | `Dukascopy` tick data • `Parquet` • `Polars` • `Numba` • `Kaggle` GPU pipelines |
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=rust,go,py,cs,cpp,ts,js&theme=dark" alt="Languages">
+
+**Web and desktop**
+
+<img src="https://skillicons.dev/icons?i=html,css,react,svelte,threejs,tauri&theme=dark" alt="Web and desktop">
+
+**Tools and environment**
+
+<img src="https://skillicons.dev/icons?i=linux,git,github,vscode,docker,pytorch&theme=dark" alt="Tools">
+
+**Libraries and data**
+
+`Burn` · `wgpu` · `FlatBuffers` · `memmap2` · `Polars` · `Numba` · `Parquet` · `LightGBM` · `Stable-Baselines3` · `ONNX` · `PySide6`
+
+**Data sources**
+
+`Dukascopy` tick data · `cTrader Open API` · `Kaggle` GPU notebooks
 
 ---
 
-## Detailed Skills
+## Technical Skills
 
-### Rust and Low-Level Systems
+### Rust and low-level systems
+- Lock-free structures and shared-memory ring buffers
+- Zero-copy serialization and memory-mapped data pipelines
+- Cache-aware layout, `mlock`, CPU pinning, process isolation
+- From-scratch models in Rust: Gaussian HMM, Kalman filter, ATR, fixed-fractional risk sizing
+- Multi-crate Cargo workspaces; Rust, Python, C# AOT and Go interop
 
-- Lock-free data structures and shared-memory IPC ring buffers
-- Zero-copy serialization (FlatBuffers) and memory-mapped data pipelines
-- Cache-aware data layout (L1/L2/L3), `mlock`, CPU pinning, process isolation
-- From-scratch statistical models in Rust: Gaussian HMM, Kalman filter, ATR, fixed-fractional risk sizing
-- Multi-crate Cargo workspaces with clean module boundaries
-- Multi-language runtime integration: `Rust` • `Python` • `C# AOT` • `Go`
+### Quantitative research
+- Market regime detection with HMM, HSMM, GMM and Kalman filtering
+- Tick-level reinforcement learning (PPO) with ONNX export for Rust inference
+- LightGBM signal models on 500-tick event bars, 3-class SKIP / BUY / SELL
+- Validation: walk-forward optimization, CPCV, Monte Carlo, overfitting detection
+- Position sizing: fixed-fractional risk, Kelly, ATR-based stops
 
-<p>
-  <img src="https://img.shields.io/badge/Rust-0d0d12?style=flat-square&logo=rust&logoColor=a78bfa">
-  <img src="https://img.shields.io/badge/Go-2d2d3a?style=flat-square&logo=go&logoColor=white">
-  <img src="https://img.shields.io/badge/Python-4b4b5c?style=flat-square&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/C%23-7c3aed?style=flat-square&logo=dotnet&logoColor=white">
-  <img src="https://img.shields.io/badge/WebGPU-2d2d3a?style=flat-square&logo=webgpu&logoColor=white">
-</p>
+### Trading platforms
+- MQL5 expert advisors, including multi-timeframe confluence systems
+- cAlgo C# cBots, including MQL5 to cAlgo conversions
+- NinjaTrader strategies, TradingView Pine Script
+- Shared risk logic across MT5, NinjaTrader and cTrader
 
-### Quantitative Research and Machine Learning
-
-- Market regime detection: HMM, HSMM, GMM, Kalman filtering
-- Reinforcement learning on tick data: PPO (Stable-Baselines3), ONNX export for Rust inference
-- Gradient boosting (LightGBM) for 3-class SKIP / BUY / SELL signal models
-- Event-bar construction (tick bars) and feature engineering at scale
-- Validation discipline: walk-forward optimization, CPCV, Monte Carlo, overfitting detection
-- Position sizing: fixed-fractional risk, Kelly criterion, ATR-based stops
-
-<p>
-  <img src="https://img.shields.io/badge/HMM%20%2F%20HSMM-7c3aed?style=flat-square">
-  <img src="https://img.shields.io/badge/Kalman-4b4b5c?style=flat-square">
-  <img src="https://img.shields.io/badge/PPO%20RL-2d2d3a?style=flat-square">
-  <img src="https://img.shields.io/badge/LightGBM-7c3aed?style=flat-square">
-  <img src="https://img.shields.io/badge/Polars-4b4b5c?style=flat-square&logo=polars&logoColor=white">
-  <img src="https://img.shields.io/badge/Numba-2d2d3a?style=flat-square&logo=numba&logoColor=white">
-</p>
-
-### Trading Platform Development
-
-- Expert advisors in MQL5 (multi-timeframe confluence systems)
-- cBots in cAlgo C# for cTrader, including MQL5-to-cAlgo conversions
-- NinjaTrader strategies in C#
-- TradingView strategies in Pine Script
-- Multi-platform systems with consistent risk logic across MT5, NinjaTrader and cTrader
-- Backtesting and research platforms (Go + Python + Parquet) with proxy-aware data downloaders
-
-<p>
-  <img src="https://img.shields.io/badge/MetaTrader_5-2d2d3a?style=flat-square">
-  <img src="https://img.shields.io/badge/cTrader-4b4b5c?style=flat-square">
-  <img src="https://img.shields.io/badge/NinjaTrader-7c3aed?style=flat-square">
-  <img src="https://img.shields.io/badge/TradingView-2d2d3a?style=flat-square&logo=tradingview&logoColor=white">
-</p>
-
-### Web and Desktop Development
-
+### Web and desktop
 - Cinematic landing pages: scroll-driven animation, 3D, looping video heroes
-- Component-based UIs with `React` and `TypeScript`
-- Desktop apps with `Tauri 2` + `Rust` + `Svelte`
-- Python desktop workstations with `PySide6`
-- Performance-first front end: semantic HTML, modern CSS, responsive and accessible layouts
-- Trading dashboards and data-heavy interfaces
+- React and TypeScript components; Tauri 2 + Svelte desktop apps
+- PySide6 trading workstations
+- Semantic HTML, modern CSS, responsive layouts
 
-<p>
-  <img src="https://img.shields.io/badge/HTML5-2d2d3a?style=flat-square&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS3-4b4b5c?style=flat-square&logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/TypeScript-7c3aed?style=flat-square&logo=typescript&logoColor=white">
-  <img src="https://img.shields.io/badge/React-2d2d3a?style=flat-square&logo=react&logoColor=a78bfa">
-  <img src="https://img.shields.io/badge/Svelte-4b4b5c?style=flat-square&logo=svelte&logoColor=white">
-  <img src="https://img.shields.io/badge/Three.js-7c3aed?style=flat-square&logo=threedotjs&logoColor=white">
-  <img src="https://img.shields.io/badge/Tauri-2d2d3a?style=flat-square&logo=tauri&logoColor=white">
-</p>
-
-### Prompt Engineering
-
-I write production-grade "master prompts" that let AI coding assistants build complete, correct software on the first pass.
-
-- **Phased specifications:** architecture, then modules, then validation, with acceptance criteria per phase
-- **Constraint-driven prompts:** explicit stack, file layout, performance targets and failure modes
-- **Single-file and multi-file delivery:** generator scripts that output full project trees
-- **Root-cause debug prompts:** structured investigation of ML and quant pipelines
-- **Review loops:** iterating prompts against real output until results are deterministic
+### Prompt engineering
+- Phased specifications with acceptance criteria per phase
+- Constraint-driven prompts: explicit stack, file layout, performance targets, failure modes
+- Generator scripts that output complete project trees
+- Root-cause debugging prompts for ML and quant pipelines
 
 ---
 
-## Flagship Node: `Aethelgard NANO-GRID`
-
-A pure-Rust, high-throughput execution framework designed to bypass traditional Linux kernel scheduling constraints and communicate directly with hardware.
-
-- **Data Ingestion Matrix:** async Dukascopy byte extraction combined with optimized binary storage, streaming hundreds of millions of ticks mapped to CPU cache blocks.
-- **Process Isolation Sandbox:** multi-core process sandboxing with lock-free shared-memory IPC ring buffers, integrating `Rust`, `Python` and `C# AOT` strategies.
-- **Workspace:** 8 Rust crates plus an `alpha_rsi` reference strategy.
-
-## Other Projects
+## Projects
 
 | Project | Stack | Description |
 | :--- | :--- | :--- |
-| **Aegis Engine** | Go • Python • Numba • Polars • Parquet | Backtesting platform with Dukascopy downloader and GPU-assisted research |
-| **Regime-Switching Systems** | Python • HMM / HSMM | Regime detection routing to trend-following or mean-reversion logic |
-| **XAU Glass** | Tauri 2 • Rust • Svelte | No-code research and paper-trading desktop app for XAUUSD |
-| **Multi-Platform EAs** | MQL5 • cAlgo • NinjaTrader | Strategies with consistent risk management across platforms |
-| **Tick RL Pipeline** | PPO • Polars • ONNX | Tick-by-tick reinforcement learning with export for Rust inference |
+| **Aethelgard NANO-GRID** | Rust | HFT framework: 8-crate workspace, Dukascopy ingestion, shared-memory IPC, `alpha_rsi` reference strategy |
+| **Aegis Engine** | Go, Python, Numba, Polars | Backtesting platform with Dukascopy downloader and proxy rotation |
+| **XAU Glass** | Tauri 2, Rust, Svelte | XAUUSD research and paper-trading desktop app |
+| **Regime-Switching Bot** | Python, HMM | Regime detection routing to trend-following or mean-reversion logic |
+| **Tick RL Pipeline** | PPO, Polars, ONNX | Tick-by-tick RL on Dukascopy data, exported for Rust |
+| **Multi-Platform EAs** | MQL5, cAlgo, NinjaTrader | Strategies with consistent risk management across platforms |
+
+**NANO-GRID design targets** (targets, not measured benchmarks): sub-50 ns IPC feedback loop, 300M ticks/s ingestion.
+
+---
+
+## Working Hours
+
+European time (CET / CEST). Async-friendly, documentation-first. Email or Discord, usually within one business day.
+
+Open to: trading-system builds, Rust engineering, quant infrastructure, landing pages and web apps, prompt engineering.
 
 ---
 
 ## GitHub Stats
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=zenovangue&show_icons=true&bg_color=0d0d12&title_color=a78bfa&text_color=c9c9d1&icon_color=7c3aed&border_color=2d2d3a" alt="GitHub stats">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zenovangue&layout=compact&bg_color=0d0d12&title_color=a78bfa&text_color=c9c9d1&border_color=2d2d3a" alt="Top languages">
+<p>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=zenovangue&show_icons=true&hide_border=false&bg_color=000000&title_color=a78bfa&text_color=e5e5e5&icon_color=8b5cf6&border_color=2a2a2e" alt="GitHub stats">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zenovangue&layout=compact&bg_color=000000&title_color=a78bfa&text_color=e5e5e5&border_color=2a2a2e" alt="Top languages">
 </p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=zenovangue&background=0D0D12&ring=7C3AED&fire=A78BFA&currStreakLabel=C9C9D1&sideLabels=C9C9D1&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B8B99&stroke=2D2D3A&border=2D2D3A" alt="Streak stats">
-</p>
-
----
-
-## Design Targets
-
-```rust
-// Architecture targets for NANO-GRID (not measured benchmarks)
-pub struct SystemTargets {
-    pub latency: Nanoseconds,
-    pub throughput: TicksPerSecond,
-    pub isolation_layer: Sandbox,
-    pub engine_status: Execution,
-}
-
-pub const TARGETS: SystemTargets = SystemTargets {
-    latency: Nanoseconds(50),
-    throughput: TicksPerSecond(300_000_000),
-    isolation_layer: Sandbox::KernelBypass,
-    engine_status: Execution::Sovereign,
-};
-```
 
 ---
 
 ## Contact
 
-| Channel | Details |
+| | |
 | :--- | :--- |
 | **Email** | [contact@zenovangue.com](mailto:contact@zenovangue.com) |
 | **Discord** | `zenovangue` |
 | **GitHub** | [@zenovangue](https://github.com/zenovangue) |
-| **Location** | Morocco 🇲🇦 |
-| **Time zone** | European hours (CET / CEST) |
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=zenovangue&style=flat-square&color=7c3aed&label=PROFILE+VIEWS" alt="Profile views">
-</p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:2d2d3a,100:0d0d12&height=120&section=footer" width="100%" alt="footer">
