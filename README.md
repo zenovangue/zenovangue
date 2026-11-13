@@ -1,9 +1,9 @@
-<img src="./assets/banner.svg" alt="zenovangue" width="100%">
+<img src="./assets/banner.svg" alt="Banner" width="100%">
 
 <p align="center">
-  <a href="mailto:contact@zenovangue.com"><img src="https://img.shields.io/badge/EMAIL-contact%40zenovangue.com-8b5cf6?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCcgZmlsbD0nd2hpdGUnPjxwYXRoIGQ9J00yMCA0SDRhMiAyIDAgMCAwLTIgMnYxMmEyIDIgMCAwIDAgMiAyaDE2YTIgMiAwIDAgMCAyLTJWNmEyIDIgMCAwIDAtMi0yem0wIDQtOCA1LTgtNVY2bDggNSA4LTV2MnonLz48L3N2Zz4%3D&logoColor=white&labelColor=000000" alt="Email"></a>
-  <img src="https://img.shields.io/badge/DISCORD-zenovangue-8b5cf6?style=for-the-badge&logo=discord&logoColor=white&labelColor=000000" alt="Discord">
-  <img src="https://img.shields.io/badge/HOURS-CET%20%2F%20CEST-8b5cf6?style=for-the-badge&labelColor=000000" alt="Working hours">
+  <a href="mailto:contact@zenovangue.com"><img src="https://img.shields.io/badge/EMAIL-contact%40zenovangue.com-71717a?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCcgZmlsbD0nd2hpdGUnPjxwYXRoIGQ9J00yMCA0SDRhMiAyIDAgMCAwLTIgMnYxMmEyIDIgMCAwIDAgMiAyaDE2YTIgMiAwIDAgMCAyLTJWNmEyIDIgMCAwIDAtMi0yem0wIDQtOCA1LTgtNVY2bDggNSA4LTV2MnonLz48L3N2Zz4%3D&logoColor=white&labelColor=000000" alt="Email"></a>
+  <img src="https://img.shields.io/badge/DISCORD-zenovangue-71717a?style=for-the-badge&logo=discord&logoColor=white&labelColor=000000" alt="Discord">
+  <img src="https://img.shields.io/badge/HOURS-CET%20%2F%20CEST-71717a?style=for-the-badge&labelColor=000000" alt="Working hours">
 </p>
 
 ## About
@@ -20,8 +20,10 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 | :--- | :--- |
 | **Systems** | Rust execution engines, shared-memory IPC, zero-copy data paths, kernel-bypass I/O |
 | **Quant research** | Regime detection (HMM, HSMM, Kalman), walk-forward validation, CPCV, Monte Carlo |
-| **Trading platforms** | MT5 (MQL5), cTrader (cAlgo), NinjaTrader, TradingView (Pine Script), NautilusTrader |
-| **Full-stack web** | Complete websites: frontend, backend APIs and databases |
+| **Strategy engineering** | Turning visual (price-action) strategies into precise, testable trading algorithms, filters and adaptive indicators |
+| **Trading platforms** | MT5 (MQL5), cTrader (cAlgo C#), NinjaTrader, TradingView (Pine Script v6), NautilusTrader |
+| **Custom platforms** | Research and execution platforms, FIX protocol connectivity, CLI tools and GUI applications |
+| **Full-stack web** | Complete websites and web applications: frontend, backend APIs, databases, with security and encryption |
 | **Desktop** | Tauri desktop applications, PySide6 trading workstations |
 
 ---
@@ -78,14 +80,32 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 - Validation discipline: walk-forward optimization, CPCV, Monte Carlo, overfitting detection
 - Position sizing: fixed-fractional risk, Kelly criterion, ATR-based stops
 
+### Strategy engineering: from visual idea to algorithm
+
+- Translate a discretionary, visual strategy (chart patterns, structure, price action) into explicit, deterministic rules that a machine can execute
+- Define every concept numerically: swing detection, market structure, zones, entries, stop placement, take-profit logic and invalidation conditions
+- Build entry, regime and volatility filters that decide when a strategy should trade and when it should stay out
+- Design adaptive indicators that adjust to market conditions: volatility-scaled lengths, regime-aware thresholds, Kalman-based smoothing, HMM/HSMM state routing
+- Keep the same logic across platforms so that results on TradingView, MT5 and cTrader can be compared like for like
+- Validate before deploying: walk-forward testing, CPCV, Monte Carlo and parameter-stability checks to avoid curve fitting
+- Document each rule set with acceptance criteria so the algorithm can be audited and extended later
+
 ### Trading platform development
 
-- MQL5 expert advisors, including multi-timeframe confluence systems
-- cAlgo C# cBots for cTrader, including MQL5-to-cAlgo conversions
-- NinjaTrader strategies in C#
-- TradingView strategies in Pine Script
-- Shared risk logic across MT5, NinjaTrader and cTrader
+- **TradingView, Pine Script v6:** indicators, strategies and libraries, including adaptive indicators, multi-timeframe logic and alert-ready signals
+- **MetaTrader 5, MQL5:** expert advisors, custom indicators and multi-timeframe confluence systems
+- **cTrader, C# (cAlgo):** cBots and indicators, including MQL5-to-cAlgo conversions
+- **NinjaTrader:** strategies in C#
+- Shared risk logic and position sizing across MT5, cTrader, NinjaTrader and TradingView
 - Backtesting and research platforms (Go, Python, Parquet) with proxy-aware data downloaders
+
+### Custom trading platforms and tooling
+
+- **Research platforms:** data ingestion, backtesting, walk-forward and Monte Carlo analysis, overfitting detection, reproducible experiment pipelines
+- **Execution platforms:** order routing and trade management over the **FIX protocol** and broker APIs, with risk limits and kill-switch logic
+- **CLI platforms:** fast command-line tools for data download, backtests, optimization runs and deployment
+- **GUI platforms:** desktop applications (Tauri, PySide6) and web dashboards for monitoring, research and manual control
+- Clean separation between data, strategy, risk and execution layers so each part can be tested and replaced independently
 
 ### Full-stack web development
 
@@ -93,6 +113,8 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 - Frontend: semantic HTML, modern CSS, TypeScript, React, responsive and accessible layouts
 - Backend: REST APIs, authentication, validation, background jobs, WebSocket and real-time data feeds
 - Databases: relational schema design (PostgreSQL, MySQL, SQLite), document stores, caching with Redis
+- Security and encryption: HTTPS/TLS everywhere, password hashing, secure session and token handling, role-based access control, encrypted storage of secrets and API keys, input validation and protection against common web attacks
+- Complete web applications and full websites, delivered end to end from database schema to deployed frontend
 - Data-heavy dashboards for trading and research, with live charts and tables
 - Cinematic landing pages: scroll-driven animation, 3D, looping video heroes
 
@@ -140,15 +162,15 @@ A pure-Rust execution framework designed to avoid kernel scheduling overhead on 
 
 European time (CET / CEST). Async-friendly and documentation-first. Email or Discord, usually within one business day.
 
-**Open to:** trading-system builds, Rust engineering, quant infrastructure, full websites with backend and database, landing pages and web applications.
+**Open to:** converting trading strategies into algorithms and indicators (Pine Script v6, MQL5, cAlgo C#), trading-system builds, FIX and execution platforms, Rust engineering, quant infrastructure, secure full-stack websites and web applications.
 
 ---
 
 ## GitHub Stats
 
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=zenovangue&show_icons=true&bg_color=000000&title_color=a78bfa&text_color=e5e5e5&icon_color=8b5cf6&border_color=2a2a2e" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zenovangue&layout=compact&bg_color=000000&title_color=a78bfa&text_color=e5e5e5&border_color=2a2a2e" alt="Top languages">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=zenovangue&show_icons=true&bg_color=000000&title_color=e5e5e5&text_color=e5e5e5&icon_color=a1a1aa&border_color=27272a" alt="GitHub stats">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zenovangue&layout=compact&bg_color=000000&title_color=e5e5e5&text_color=e5e5e5&border_color=27272a" alt="Top languages">
 </p>
 
 ---
