@@ -1,4 +1,4 @@
-<img src="./assets/banner.svg" alt="Banner" width="100%">
+<img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/banner.gif" alt="Banner" width="100%">
 
 <p align="center">
   <a href="mailto:contact@zenovangue.com"><img src="https://img.shields.io/badge/EMAIL-contact%40zenovangue.com-71717a?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCcgZmlsbD0nd2hpdGUnPjxwYXRoIGQ9J00yMCA0SDRhMiAyIDAgMCAwLTIgMnYxMmEyIDIgMCAwIDAgMiAyaDE2YTIgMiAwIDAgMCAyLTJWNmEyIDIgMCAwIDAtMi0yem0wIDQtOCA1LTgtNVY2bDggNSA4LTV2MnonLz48L3N2Zz4%3D&logoColor=white&labelColor=000000" alt="Email"></a>
