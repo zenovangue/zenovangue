@@ -41,7 +41,7 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 ### Tools and environment
 
 <p>
-  <img src="https://skillicons.dev/icons?i=linux,git,github,vscode,docker,pytorch&theme=dark" alt="Tools and environment" height="48"><img src="./assets/claude.svg" alt="Claude" height="48">
+  <img src="https://skillicons.dev/icons?i=linux,git,github,vscode,docker,pytorch&theme=dark" alt="Tools and environment" height="48"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/claude.svg" alt="Claude" height="48">
 </p>
 
 ### Backend and databases
@@ -123,7 +123,6 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 - Desktop applications with Tauri 2, Rust and Svelte
 - PySide6 trading workstations
 - Native-feeling UIs over local data pipelines and trading APIs
-
 
 ---
 
