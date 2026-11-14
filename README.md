@@ -6,6 +6,17 @@
   <img src="https://img.shields.io/badge/HOURS-CET%20%2F%20CEST-71717a?style=for-the-badge&labelColor=000000" alt="Working hours">
 </p>
 
+<p align="center">
+  <a href="#about">About</a> &nbsp;·&nbsp;
+  <a href="#tech-stack">Tech Stack</a> &nbsp;·&nbsp;
+  <a href="#technical-skills">Skills</a> &nbsp;·&nbsp;
+  <a href="#projects">Projects</a> &nbsp;·&nbsp;
+  <a href="#gallery">Gallery</a> &nbsp;·&nbsp;
+  <a href="#contact">Contact</a>
+</p>
+
+---
+
 ## About
 
 I am an independent engineer and algorithmic trader. I build trading infrastructure end to end: research tooling, execution engines, backtesting platforms, and the interfaces that sit on top of them.
@@ -30,25 +41,25 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 
 ## Tech Stack
 
-### Languages
+**Languages**
 
 <img src="https://skillicons.dev/icons?i=rust,go,py,cs,cpp,ts,js&theme=dark" alt="Languages">
 
-### Web and desktop
+**Web and desktop**
 
 <img src="https://skillicons.dev/icons?i=html,css,react,svelte,threejs,tauri&theme=dark" alt="Web and desktop">
 
-### Tools and environment
+**Backend and databases**
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,postgres,mysql,mongodb,redis,sqlite,nginx&theme=dark" alt="Backend and databases">
+
+**Tools and environment**
 
 <p>
   <img src="https://skillicons.dev/icons?i=linux,git,github,vscode,docker,pytorch&theme=dark" alt="Tools and environment" height="48"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/claude.svg" alt="Claude" height="48">
 </p>
 
-### Backend and databases
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,postgres,mysql,mongodb,redis,sqlite,nginx&theme=dark" alt="Backend and databases">
-
-### Libraries, frameworks and data
+**Libraries, frameworks and data**
 
 | Category | Tools |
 | :--- | :--- |
@@ -61,7 +72,9 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 
 ## Technical Skills
 
-### Rust and low-level systems
+<details>
+<summary><b>Rust and low-level systems</b></summary>
+<br>
 
 - Lock-free structures and shared-memory IPC ring buffers
 - Zero-copy serialization (FlatBuffers) and memory-mapped data pipelines
@@ -71,7 +84,11 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 - Interoperability between Rust, Python, C# AOT and Go runtimes
 - GPU compute with `wgpu` shaders for parallel optimization workloads
 
-### Quantitative research and machine learning
+</details>
+
+<details>
+<summary><b>Quantitative research and machine learning</b></summary>
+<br>
 
 - Market regime detection with HMM, HSMM, GMM and Kalman filtering
 - Tick-level reinforcement learning (PPO) with ONNX export for Rust inference
@@ -80,7 +97,11 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 - Validation discipline: walk-forward optimization, CPCV, Monte Carlo, overfitting detection
 - Position sizing: fixed-fractional risk, Kelly criterion, ATR-based stops
 
-### Strategy engineering: from visual idea to algorithm
+</details>
+
+<details>
+<summary><b>Strategy engineering: from visual idea to algorithm</b></summary>
+<br>
 
 - Translate a discretionary, visual strategy (chart patterns, structure, price action) into explicit, deterministic rules that a machine can execute
 - Define every concept numerically: swing detection, market structure, zones, entries, stop placement, take-profit logic and invalidation conditions
@@ -90,7 +111,11 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 - Validate before deploying: walk-forward testing, CPCV, Monte Carlo and parameter-stability checks to avoid curve fitting
 - Document each rule set with acceptance criteria so the algorithm can be audited and extended later
 
-### Trading platform development
+</details>
+
+<details>
+<summary><b>Trading platform development</b></summary>
+<br>
 
 - **TradingView, Pine Script v6:** indicators, strategies and libraries, including adaptive indicators, multi-timeframe logic and alert-ready signals
 - **MetaTrader 5, MQL5:** expert advisors, custom indicators and multi-timeframe confluence systems
@@ -99,7 +124,11 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 - Shared risk logic and position sizing across MT5, cTrader, NinjaTrader and TradingView
 - Backtesting and research platforms (Go, Python, Parquet) with proxy-aware data downloaders
 
-### Custom trading platforms and tooling
+</details>
+
+<details>
+<summary><b>Custom trading platforms and tooling</b></summary>
+<br>
 
 - **Research platforms:** data ingestion, backtesting, walk-forward and Monte Carlo analysis, overfitting detection, reproducible experiment pipelines
 - **Execution platforms:** order routing and trade management over the **FIX protocol** and broker APIs, with risk limits and kill-switch logic
@@ -107,22 +136,31 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 - **GUI platforms:** desktop applications (Tauri, PySide6) and web dashboards for monitoring, research and manual control
 - Clean separation between data, strategy, risk and execution layers so each part can be tested and replaced independently
 
-### Full-stack web development
+</details>
 
-- Complete websites from design to deployment: frontend, backend and database
+<details>
+<summary><b>Full-stack web development</b></summary>
+<br>
+
+- Complete websites and web applications, delivered end to end from database schema to deployed frontend
 - Frontend: semantic HTML, modern CSS, TypeScript, React, responsive and accessible layouts
 - Backend: REST APIs, authentication, validation, background jobs, WebSocket and real-time data feeds
 - Databases: relational schema design (PostgreSQL, MySQL, SQLite), document stores, caching with Redis
 - Security and encryption: HTTPS/TLS everywhere, password hashing, secure session and token handling, role-based access control, encrypted storage of secrets and API keys, input validation and protection against common web attacks
-- Complete web applications and full websites, delivered end to end from database schema to deployed frontend
 - Data-heavy dashboards for trading and research, with live charts and tables
 - Cinematic landing pages: scroll-driven animation, 3D, looping video heroes
 
-### Desktop development
+</details>
+
+<details>
+<summary><b>Desktop development</b></summary>
+<br>
 
 - Desktop applications with Tauri 2, Rust and Svelte
 - PySide6 trading workstations
 - Native-feeling UIs over local data pipelines and trading APIs
+
+</details>
 
 ---
 
@@ -138,6 +176,14 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 
 ## Projects
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/my-work.svg" alt="My Work: NANO-GRID, Aegis Engine, XAU Glass, Regime Bot, Tick RL Pipeline, Multi-Platform EAs" width="100%">
+</p>
+
+<details>
+<summary><b>Project details</b></summary>
+<br>
+
 | Project | Stack | Description |
 | :--- | :--- | :--- |
 | **Aethelgard NANO-GRID** | Rust | Low-latency trading framework: 8-crate workspace, Dukascopy ingestion, shared-memory IPC, `alpha_rsi` reference strategy |
@@ -147,6 +193,8 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 | **Tick RL Pipeline** | PPO, Polars, ONNX | Tick-by-tick reinforcement learning on Dukascopy data, exported for Rust inference |
 | **Multi-Platform EAs** | MQL5, cAlgo, NinjaTrader | Strategies with consistent risk management across platforms |
 
+</details>
+
 ### Flagship: Aethelgard NANO-GRID
 
 A pure-Rust execution framework designed to avoid kernel scheduling overhead on the hot path and to keep data movement explicit.
@@ -154,6 +202,16 @@ A pure-Rust execution framework designed to avoid kernel scheduling overhead on 
 - **Data ingestion:** async Dukascopy byte extraction with optimized binary storage, designed to stream hundreds of millions of ticks mapped to CPU cache blocks.
 - **Process isolation:** multi-core sandboxing with lock-free shared-memory IPC ring buffers, integrating Rust, Python and C# AOT strategies.
 - **Design targets (not measured benchmarks):** sub-50 ns IPC feedback loop, 300M ticks per second ingestion.
+
+---
+
+## Gallery
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/blobs-black.gif" alt="Animated gradient blobs" height="380">
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/tokyo.gif" alt="Animated Tokyo skyline" height="380">
+</p>
 
 ---
 
@@ -167,7 +225,7 @@ European time (CET / CEST). Async-friendly and documentation-first. Email or Dis
 
 ## GitHub Stats
 
-<p>
+<p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=zenovangue&show_icons=true&bg_color=000000&title_color=e5e5e5&text_color=e5e5e5&icon_color=a1a1aa&border_color=27272a" alt="GitHub stats">
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zenovangue&layout=compact&bg_color=000000&title_color=e5e5e5&text_color=e5e5e5&border_color=27272a" alt="Top languages">
 </p>
