@@ -1,23 +1,22 @@
 <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/banner.gif" alt="Banner" width="100%">
 
 <p align="center">
-  <a href="mailto:contact@zenovangue.com"><img src="https://img.shields.io/badge/EMAIL-contact%40zenovangue.com-71717a?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCcgZmlsbD0nd2hpdGUnPjxwYXRoIGQ9J00yMCA0SDRhMiAyIDAgMCAwLTIgMnYxMmEyIDIgMCAwIDAgMiAyaDE2YTIgMiAwIDAgMCAyLTJWNmEyIDIgMCAwIDAtMi0yem0wIDQtOCA1LTgtNVY2bDggNSA4LTV2MnonLz48L3N2Zz4%3D&logoColor=white&labelColor=000000" alt="Email"></a>
-  <img src="https://img.shields.io/badge/DISCORD-zenovangue-71717a?style=for-the-badge&logo=discord&logoColor=white&labelColor=000000" alt="Discord">
-  <img src="https://img.shields.io/badge/HOURS-CET%20%2F%20CEST-71717a?style=for-the-badge&labelColor=000000" alt="Working hours">
+  <a href="mailto:contact@zenovangue.com"><img src="https://img.shields.io/badge/EMAIL-contact%40zenovangue.com-e4e4e7?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCcgZmlsbD0nd2hpdGUnPjxwYXRoIGQ9J00yMCA0SDRhMiAyIDAgMCAwLTIgMnYxMmEyIDIgMCAwIDAgMiAyaDE2YTIgMiAwIDAgMCAyLTJWNmEyIDIgMCAwIDAtMi0yem0wIDQtOCA1LTgtNVY2bDggNSA4LTV2MnonLz48L3N2Zz4%3D&logoColor=white&labelColor=000000" alt="Email"></a>
+  <img src="https://img.shields.io/badge/DISCORD-zenovangue-e4e4e7?style=for-the-badge&logo=discord&logoColor=white&labelColor=000000" alt="Discord">
+  <img src="https://img.shields.io/badge/HOURS-CET%20%2F%20CEST-e4e4e7?style=for-the-badge&labelColor=000000" alt="Working hours">
 </p>
 
 <p align="center">
   <a href="#about">About</a> &nbsp;·&nbsp;
   <a href="#tech-stack">Tech Stack</a> &nbsp;·&nbsp;
   <a href="#technical-skills">Skills</a> &nbsp;·&nbsp;
-  <a href="#projects">Projects</a> &nbsp;·&nbsp;
   <a href="#gallery">Gallery</a> &nbsp;·&nbsp;
   <a href="#contact">Contact</a>
 </p>
 
----
 
-## About
+<a name="about"></a>
+<img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-about.svg" alt="About" width="100%">
 
 I am an independent engineer and algorithmic trader. I build trading infrastructure end to end: research tooling, execution engines, backtesting platforms, and the interfaces that sit on top of them.
 
@@ -25,10 +24,20 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 
 > Low-latency execution logic, grounded in statistical rigor and hardware-aware design.
 
-### Focus areas
+<p align="center">
+  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/work.svg" alt="My Work: Systems, Quant research, Strategy engineering, Trading platforms, Custom platforms, Full-stack web, Desktop" width="100%">
+</p>
+
+<details>
+<summary><b>In detail</b></summary>
+<br>
 
 | Area | What I work on |
-| :--- | :--- |
+| :
+
+</details>
+
+--- | :--- |
 | **Systems** | Rust execution engines, shared-memory IPC, zero-copy data paths, kernel-bypass I/O |
 | **Quant research** | Regime detection (HMM, HSMM, Kalman), walk-forward validation, CPCV, Monte Carlo |
 | **Strategy engineering** | Turning visual (price-action) strategies into precise, testable trading algorithms, filters and adaptive indicators |
@@ -37,9 +46,9 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 | **Full-stack web** | Complete websites and web applications: frontend, backend APIs, databases, with security and encryption |
 | **Desktop** | Tauri desktop applications, PySide6 trading workstations |
 
----
 
-## Tech Stack
+<a name="tech-stack"></a>
+<img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-tech-stack.svg" alt="Tech Stack" width="100%">
 
 **Languages**
 
@@ -68,9 +77,9 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 | **Formats and runtime** | `Parquet` · `ONNX` |
 | **Data sources** | `Dukascopy` tick data · `cTrader Open API` · `Kaggle` GPU notebooks |
 
----
 
-## Technical Skills
+<a name="technical-skills"></a>
+<img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-technical-skills.svg" alt="Technical Skills" width="100%">
 
 <details>
 <summary><b>Rust and low-level systems</b></summary>
@@ -162,9 +171,9 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 
 </details>
 
----
 
-## Engineering Principles
+<a name="principles"></a>
+<img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-principles.svg" alt="Engineering Principles" width="100%">
 
 1. **Measure before claiming.** Performance figures are labelled as targets until benchmarked.
 2. **Validate out of sample.** A backtest is not evidence until it survives walk-forward and CPCV.
@@ -172,40 +181,9 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 4. **Keep the hot path simple.** No allocation, no locks, no surprises where latency matters.
 5. **Document decisions.** Architecture notes and acceptance criteria live next to the code.
 
----
 
-## Projects
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/my-work.svg" alt="My Work: NANO-GRID, Aegis Engine, XAU Glass, Regime Bot, Tick RL Pipeline, Multi-Platform EAs" width="100%">
-</p>
-
-<details>
-<summary><b>Project details</b></summary>
-<br>
-
-| Project | Stack | Description |
-| :--- | :--- | :--- |
-| **Aethelgard NANO-GRID** | Rust | Low-latency trading framework: 8-crate workspace, Dukascopy ingestion, shared-memory IPC, `alpha_rsi` reference strategy |
-| **Aegis Engine** | Go, Python, Numba, Polars | Backtesting platform with Dukascopy downloader and proxy rotation |
-| **XAU Glass** | Tauri 2, Rust, Svelte | XAUUSD research and paper-trading desktop application |
-| **Regime-Switching Bot** | Python, HMM | Regime detection routing to trend-following or mean-reversion logic |
-| **Tick RL Pipeline** | PPO, Polars, ONNX | Tick-by-tick reinforcement learning on Dukascopy data, exported for Rust inference |
-| **Multi-Platform EAs** | MQL5, cAlgo, NinjaTrader | Strategies with consistent risk management across platforms |
-
-</details>
-
-### Flagship: Aethelgard NANO-GRID
-
-A pure-Rust execution framework designed to avoid kernel scheduling overhead on the hot path and to keep data movement explicit.
-
-- **Data ingestion:** async Dukascopy byte extraction with optimized binary storage, designed to stream hundreds of millions of ticks mapped to CPU cache blocks.
-- **Process isolation:** multi-core sandboxing with lock-free shared-memory IPC ring buffers, integrating Rust, Python and C# AOT strategies.
-- **Design targets (not measured benchmarks):** sub-50 ns IPC feedback loop, 300M ticks per second ingestion.
-
----
-
-## Gallery
+<a name="gallery"></a>
+<img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-gallery.svg" alt="Gallery" width="100%">
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/blobs-black.gif" alt="Animated gradient blobs" height="380">
@@ -213,26 +191,26 @@ A pure-Rust execution framework designed to avoid kernel scheduling overhead on 
   <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/tokyo.gif" alt="Animated Tokyo skyline" height="380">
 </p>
 
----
 
-## Working Hours
+<a name="hours"></a>
+<img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-hours.svg" alt="Working Hours" width="100%">
 
 European time (CET / CEST). Async-friendly and documentation-first. Email or Discord, usually within one business day.
 
 **Open to:** converting trading strategies into algorithms and indicators (Pine Script v6, MQL5, cAlgo C#), trading-system builds, FIX and execution platforms, Rust engineering, quant infrastructure, secure full-stack websites and web applications.
 
----
 
-## GitHub Stats
+<a name="stats"></a>
+<img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-stats.svg" alt="GitHub Stats" width="100%">
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=zenovangue&show_icons=true&bg_color=000000&title_color=e5e5e5&text_color=e5e5e5&icon_color=a1a1aa&border_color=27272a" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zenovangue&layout=compact&bg_color=000000&title_color=e5e5e5&text_color=e5e5e5&border_color=27272a" alt="Top languages">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=zenovangue&show_icons=true&bg_color=000000&title_color=ffffff&text_color=a1a1aa&icon_color=00e5ff&border_color=27272a" alt="GitHub stats">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zenovangue&layout=compact&bg_color=000000&title_color=ffffff&text_color=a1a1aa&border_color=27272a" alt="Top languages">
 </p>
 
----
 
-## Contact
+<a name="contact"></a>
+<img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-contact.svg" alt="Contact" width="100%">
 
 | | |
 | :--- | :--- |
@@ -240,3 +218,7 @@ European time (CET / CEST). Async-friendly and documentation-first. Email or Dis
 | **Discord** | `zenovangue` |
 | **GitHub** | [@zenovangue](https://github.com/zenovangue) |
 | **Hours** | CET / CEST |
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/footer.svg" alt="1 of 1" width="100%">
+</p>
