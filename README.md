@@ -36,34 +36,26 @@ My approach is systems-first: explicit specifications, measurable targets, stric
 <p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/work-d.svg">
-  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/work-l.svg" alt="My Work: Systems, Quant research, Strategy engineering, Trading platforms, Custom platforms, Full-stack web, Desktop" width="100%">
+  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/work-l.svg" alt="Areas of Expertise: Systems, Quant research, Strategy engineering, Trading platforms, Custom platforms, Full-stack web, Desktop" width="100%">
 </picture>
 </p>
 
-<details>
-<summary><b>In detail</b></summary>
-<br>
-
-| Area | What I work on |
-| :--- | :--- |
-| **Systems** | Rust execution engines, shared-memory IPC, zero-copy data paths, kernel-bypass I/O |
-| **Quant research** | Regime detection (HMM, HSMM, Kalman), walk-forward validation, CPCV, Monte Carlo |
-| **Strategy engineering** | Turning visual (price-action) strategies into precise, testable trading algorithms, filters and adaptive indicators |
-| **Trading platforms** | MT5 (MQL5), cTrader (cAlgo C#), NinjaTrader, TradingView (Pine Script v6), NautilusTrader |
-| **Custom platforms** | Research and execution platforms, FIX protocol connectivity, CLI tools and GUI applications |
-| **Full-stack web** | Complete websites and web applications: frontend, backend APIs, databases, with security and encryption |
-| **Desktop** | Tauri desktop applications, PySide6 trading workstations |
-
-</details>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/blobs.webp" alt="Animated gradient blobs" height="380">
-  &nbsp;&nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/tokyo-d.webp">
-    <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/tokyo-l.webp" alt="Animated Tokyo skyline" height="380">
-  </picture>
-</p>
+<table>
+  <tr>
+    <th align="left">Area</th>
+    <th align="left">What I work on</th>
+    <td rowspan="8" align="center" valign="middle" width="30%">
+      <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/blobs.webp" alt="Animated gradient blobs" width="100%">
+    </td>
+  </tr>
+  <tr><td><b>Systems</b></td><td>Rust execution engines, shared-memory IPC, zero-copy data paths, kernel-bypass I/O</td></tr>
+  <tr><td><b>Quant research</b></td><td>Regime detection (HMM, HSMM, Kalman), walk-forward validation, CPCV, Monte Carlo</td></tr>
+  <tr><td><b>Strategy engineering</b></td><td>Turning visual (price-action) strategies into precise, testable trading algorithms, filters and adaptive indicators</td></tr>
+  <tr><td><b>Trading platforms</b></td><td>MT5 (MQL5), cTrader (cAlgo C#), NinjaTrader, TradingView (Pine Script v6), NautilusTrader</td></tr>
+  <tr><td><b>Custom platforms</b></td><td>Research and execution platforms, FIX protocol connectivity, CLI tools and GUI applications</td></tr>
+  <tr><td><b>Full-stack web</b></td><td>Complete websites and web applications: frontend, backend APIs, databases, with security and encryption</td></tr>
+  <tr><td><b>Desktop</b></td><td>Tauri desktop applications, PySide6 trading workstations</td></tr>
+</table>
 
 <a name="engagements"></a>
 <picture>
@@ -262,7 +254,7 @@ European time (CET / CEST). Async-friendly and documentation-first. Email or Dis
   <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-contact-l.svg" alt="Contact" width="100%">
 </picture>
 
-| | |
+| Channel | Details |
 | :--- | :--- |
 | **Email** | [contact@zenovangue.com](mailto:contact@zenovangue.com) |
 | **Discord** | `zenovangue` |
