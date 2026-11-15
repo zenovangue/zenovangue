@@ -1,4 +1,7 @@
-<img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/banner.gif" alt="Banner" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/banner-d.webp">
+  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/banner-l.webp" alt="Banner" width="100%">
+</picture>
 
 <p align="center">
   <a href="mailto:contact@zenovangue.com"><img src="https://img.shields.io/badge/EMAIL-contact%40zenovangue.com-e4e4e7?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCcgZmlsbD0nd2hpdGUnPjxwYXRoIGQ9J00yMCA0SDRhMiAyIDAgMCAwLTIgMnYxMmEyIDIgMCAwIDAgMiAyaDE2YTIgMiAwIDAgMCAyLTJWNmEyIDIgMCAwIDAtMi0yem0wIDQtOCA1LTgtNVY2bDggNSA4LTV2MnonLz48L3N2Zz4%3D&logoColor=white&labelColor=000000" alt="Email"></a>
@@ -8,24 +11,33 @@
 
 <p align="center">
   <a href="#about">About</a> &nbsp;·&nbsp;
-  <a href="#tech-stack">Tech Stack</a> &nbsp;·&nbsp;
-  <a href="#technical-skills">Skills</a> &nbsp;·&nbsp;
-  <a href="#gallery">Gallery</a> &nbsp;·&nbsp;
+  <a href="#engagements">Engagements</a> &nbsp;·&nbsp;
+  <a href="#process">Process</a> &nbsp;·&nbsp;
+  <a href="#tech-stack">Stack</a> &nbsp;·&nbsp;
+  <a href="#depth">Depth</a> &nbsp;·&nbsp;
   <a href="#contact">Contact</a>
 </p>
 
+<p align="center">
+  <b>Independent engineer: trading systems and secure web platforms.</b><br>
+  From strategy logic to production: algorithms, execution infrastructure, research tooling and full-stack products.
+</p>
 
 <a name="about"></a>
-<img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-about.svg" alt="About" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-about-d.svg">
+  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-about-l.svg" alt="About" width="100%">
+</picture>
 
-I am an independent engineer and algorithmic trader. I build trading infrastructure end to end: research tooling, execution engines, backtesting platforms, and the interfaces that sit on top of them.
+I design and build trading infrastructure end to end: turning discretionary strategies into precise algorithms, building the research and execution platforms around them, and shipping the web products that sit on top.
 
-My approach is systems-first. I prefer explicit architecture, measurable targets, strict validation, and code that is easy to reason about under load.
-
-> Low-latency execution logic, grounded in statistical rigor and hardware-aware design.
+My approach is systems-first: explicit specifications, measurable targets, strict validation, and code that is easy to reason about under load.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/work.svg" alt="My Work: Systems, Quant research, Strategy engineering, Trading platforms, Custom platforms, Full-stack web, Desktop" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/work-d.svg">
+  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/work-l.svg" alt="My Work: Systems, Quant research, Strategy engineering, Trading platforms, Custom platforms, Full-stack web, Desktop" width="100%">
+</picture>
 </p>
 
 <details>
@@ -33,11 +45,7 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 <br>
 
 | Area | What I work on |
-| :
-
-</details>
-
---- | :--- |
+| :--- | :--- |
 | **Systems** | Rust execution engines, shared-memory IPC, zero-copy data paths, kernel-bypass I/O |
 | **Quant research** | Regime detection (HMM, HSMM, Kalman), walk-forward validation, CPCV, Monte Carlo |
 | **Strategy engineering** | Turning visual (price-action) strategies into precise, testable trading algorithms, filters and adaptive indicators |
@@ -46,9 +54,49 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 | **Full-stack web** | Complete websites and web applications: frontend, backend APIs, databases, with security and encryption |
 | **Desktop** | Tauri desktop applications, PySide6 trading workstations |
 
+</details>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/blobs.webp" alt="Animated gradient blobs" height="380">
+  &nbsp;&nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/tokyo-d.webp">
+    <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/tokyo-l.webp" alt="Animated Tokyo skyline" height="380">
+  </picture>
+</p>
+
+<a name="engagements"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-engagements-d.svg">
+  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-engagements-l.svg" alt="Engagements" width="100%">
+</picture>
+
+| Engagement | What you get |
+| :--- | :--- |
+| **Strategy to algorithm** | A visual or discretionary strategy turned into exact rules, filters and adaptive indicators, delivered as Pine Script v6, MQL5 or cAlgo C#, with the same logic across platforms |
+| **Trading platform build** | A custom research or execution platform: data pipeline, backtesting, FIX or broker connectivity, risk controls, delivered as CLI and/or GUI |
+| **Full-stack product** | A website or web application end to end: frontend, backend API, database, authentication, encryption and deployment |
+| **Validation and hardening** | Walk-forward, CPCV and Monte Carlo testing, overfitting detection and performance work for existing systems |
+
+Every engagement comes with source code, documentation and written acceptance criteria.
+
+<a name="process"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-how-i-work-d.svg">
+  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-how-i-work-l.svg" alt="How I Work" width="100%">
+</picture>
+
+1. **Scope and specification.** The idea is written down as explicit rules and acceptance criteria before any code.
+2. **Architecture.** Clear separation of data, strategy, risk and execution so each part can be tested and replaced.
+3. **Phased build.** Small, reviewable deliveries instead of one large handover.
+4. **Validation.** Out-of-sample testing, parameter-stability checks and realistic cost assumptions.
+5. **Documentation and handover.** The system is documented so it can be audited, run and extended without me.
 
 <a name="tech-stack"></a>
-<img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-tech-stack.svg" alt="Tech Stack" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-tech-stack-d.svg">
+  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-tech-stack-l.svg" alt="Tech Stack" width="100%">
+</picture>
 
 **Languages**
 
@@ -77,9 +125,11 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 | **Formats and runtime** | `Parquet` · `ONNX` |
 | **Data sources** | `Dukascopy` tick data · `cTrader Open API` · `Kaggle` GPU notebooks |
 
-
-<a name="technical-skills"></a>
-<img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-technical-skills.svg" alt="Technical Skills" width="100%">
+<a name="depth"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-technical-depth-d.svg">
+  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-technical-depth-l.svg" alt="Technical Depth" width="100%">
+</picture>
 
 <details>
 <summary><b>Rust and low-level systems</b></summary>
@@ -171,9 +221,11 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 
 </details>
 
-
 <a name="principles"></a>
-<img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-principles.svg" alt="Engineering Principles" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-principles-d.svg">
+  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-principles-l.svg" alt="Engineering Principles" width="100%">
+</picture>
 
 1. **Measure before claiming.** Performance figures are labelled as targets until benchmarked.
 2. **Validate out of sample.** A backtest is not evidence until it survives walk-forward and CPCV.
@@ -181,36 +233,34 @@ My approach is systems-first. I prefer explicit architecture, measurable targets
 4. **Keep the hot path simple.** No allocation, no locks, no surprises where latency matters.
 5. **Document decisions.** Architecture notes and acceptance criteria live next to the code.
 
-
-<a name="gallery"></a>
-<img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-gallery.svg" alt="Gallery" width="100%">
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/blobs-black.gif" alt="Animated gradient blobs" height="380">
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/tokyo.gif" alt="Animated Tokyo skyline" height="380">
-</p>
-
-
-<a name="hours"></a>
-<img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-hours.svg" alt="Working Hours" width="100%">
-
-European time (CET / CEST). Async-friendly and documentation-first. Email or Discord, usually within one business day.
-
-**Open to:** converting trading strategies into algorithms and indicators (Pine Script v6, MQL5, cAlgo C#), trading-system builds, FIX and execution platforms, Rust engineering, quant infrastructure, secure full-stack websites and web applications.
-
-
 <a name="stats"></a>
-<img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-stats.svg" alt="GitHub Stats" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-stats-d.svg">
+  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-stats-l.svg" alt="GitHub Stats" width="100%">
+</picture>
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=zenovangue&show_icons=true&bg_color=000000&title_color=ffffff&text_color=a1a1aa&icon_color=00e5ff&border_color=27272a" alt="GitHub stats">
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zenovangue&layout=compact&bg_color=000000&title_color=ffffff&text_color=a1a1aa&border_color=27272a" alt="Top languages">
 </p>
 
+<a name="availability"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-availability-d.svg">
+  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-availability-l.svg" alt="Availability" width="100%">
+</picture>
+
+European time (CET / CEST). Async-friendly and documentation-first. Email or Discord, usually within one business day.
+
+**Open to:** converting trading strategies into algorithms and indicators (Pine Script v6, MQL5, cAlgo C#), trading-system builds, FIX and execution platforms, Rust engineering, quant infrastructure, secure full-stack websites and web applications.
+
+**To start:** send a short email with the platform, a description of the strategy or product, and your timeline.
 
 <a name="contact"></a>
-<img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-contact.svg" alt="Contact" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-contact-d.svg">
+  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-contact-l.svg" alt="Contact" width="100%">
+</picture>
 
 | | |
 | :--- | :--- |
@@ -220,5 +270,8 @@ European time (CET / CEST). Async-friendly and documentation-first. Email or Dis
 | **Hours** | CET / CEST |
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/footer.svg" alt="1 of 1" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/footer-d.svg">
+  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/footer-l.svg" alt="1 of 1" width="100%">
+</picture>
 </p>
