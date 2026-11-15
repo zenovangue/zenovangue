@@ -4,9 +4,22 @@
 </picture>
 
 <p align="center">
-  <a href="mailto:contact@zenovangue.com"><img src="https://img.shields.io/badge/EMAIL-contact%40zenovangue.com-e4e4e7?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCcgZmlsbD0nd2hpdGUnPjxwYXRoIGQ9J00yMCA0SDRhMiAyIDAgMCAwLTIgMnYxMmEyIDIgMCAwIDAgMiAyaDE2YTIgMiAwIDAgMCAyLTJWNmEyIDIgMCAwIDAtMi0yem0wIDQtOCA1LTgtNVY2bDggNSA4LTV2MnonLz48L3N2Zz4%3D&logoColor=white&labelColor=000000" alt="Email"></a>
-  <img src="https://img.shields.io/badge/DISCORD-zenovangue-e4e4e7?style=for-the-badge&logo=discord&logoColor=white&labelColor=000000" alt="Discord">
-  <img src="https://img.shields.io/badge/HOURS-CET%20%2F%20CEST-e4e4e7?style=for-the-badge&labelColor=000000" alt="Working hours">
+  <a href="mailto:contact@zenovangue.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-email-d.svg">
+    <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-email-l.svg" alt="Email: contact@zenovangue.com" height="40">
+  </picture>
+  </a>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-discord-d.svg">
+    <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-discord-l.svg" alt="Discord: zenovangue" height="40">
+  </picture>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-hours-d.svg">
+    <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-hours-l.svg" alt="Working hours: CET / CEST" height="40">
+  </picture>
 </p>
 
 <p align="center">
