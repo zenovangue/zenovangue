@@ -1,8 +1,3 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/banner-d.webp">
-  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/banner-l.webp" alt="Banner" width="100%">
-</picture>
-
 <p align="center">
   <a href="mailto:contact@zenovangue.com"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-email-d.svg">
@@ -21,12 +16,17 @@
 </p>
 
 <p align="center">
-  <a href="#about">About</a> &nbsp;·&nbsp;
-  <a href="#engagements">Engagements</a> &nbsp;·&nbsp;
-  <a href="#process">Process</a> &nbsp;·&nbsp;
-  <a href="#tech-stack">Stack</a> &nbsp;·&nbsp;
-  <a href="#depth">Depth</a> &nbsp;·&nbsp;
-  <a href="#contact">Contact</a>
+  <a href="#about"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-about-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-about-l.svg" alt="About" height="34"></picture></a>
+  &nbsp;
+  <a href="#engagements"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-engagements-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-engagements-l.svg" alt="Engagements" height="34"></picture></a>
+  &nbsp;
+  <a href="#process"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-process-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-process-l.svg" alt="Process" height="34"></picture></a>
+  &nbsp;
+  <a href="#tech-stack"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-stack-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-stack-l.svg" alt="Stack" height="34"></picture></a>
+  &nbsp;
+  <a href="#depth"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-depth-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-depth-l.svg" alt="Depth" height="34"></picture></a>
+  &nbsp;
+  <a href="#contact"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-contact-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-contact-l.svg" alt="Contact" height="34"></picture></a>
 </p>
 
 <p align="center">
@@ -280,12 +280,13 @@ European time (CET / CEST). Async-friendly and documentation-first. Email or Dis
   <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-contact-l.svg" alt="Contact" width="100%">
 </picture>
 
-| Channel | Details |
-| :--- | :--- |
-| **Email** | [contact@zenovangue.com](mailto:contact@zenovangue.com) |
-| **Discord** | `zenovangue` |
-| **GitHub** | [@zenovangue](https://github.com/zenovangue) |
-| **Hours** | CET / CEST |
+<p align="center">
+  <a href="mailto:contact@zenovangue.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-email-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-email-l.svg" alt="Email: contact@zenovangue.com" height="40"></picture></a>
+  &nbsp;
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-discord-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-discord-l.svg" alt="Discord: zenovangue" height="40"></picture>
+  &nbsp;
+  <a href="https://github.com/zenovangue"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-github-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-github-l.svg" alt="GitHub: zenovangue" height="40"></picture></a>
+</p>
 
 <p align="center">
 <picture>
