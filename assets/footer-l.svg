@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="130" viewBox="0 0 1200 130" role="img" aria-label="1 of 1">
+  <defs>
+    <style>.s{font-family:Didot,"Bodoni MT","Playfair Display",Georgia,serif;font-style:italic;font-size:22px;letter-spacing:10px;fill:#0a0a0a;text-anchor:middle}
+    .u{font-family:"SFMono-Regular",Consolas,Menlo,monospace;font-size:11px;letter-spacing:6px;fill:#71717a;text-anchor:middle}</style>
+    <linearGradient id="sh" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0" spreadMethod="repeat">
+      <stop offset="0" stop-color="#a1a1aa"/><stop offset=".5" stop-color="#0a0a0a"/><stop offset="1" stop-color="#a1a1aa"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="600" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="fl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0a0a0a" stop-opacity="0"/><stop offset="1" stop-color="#0a0a0a" stop-opacity=".4"/></linearGradient>
+    <linearGradient id="fr" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0a0a0a" stop-opacity=".4"/><stop offset="1" stop-color="#0a0a0a" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect x="60" y="50" width="440" height="1" fill="url(#fl)"/>
+  <rect x="700" y="50" width="440" height="1" fill="url(#fr)"/>
+  <path d="M600 40 L610 50 L600 60 L590 50Z" fill="none" stroke="url(#sh)" stroke-width="1.4"/>
+  <text class="s" x="600" y="98">1 / 1</text>
+  <text class="u" x="600" y="120">ZENOVANGUE</text>
+</svg>
