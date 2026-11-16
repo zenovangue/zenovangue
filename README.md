@@ -4,12 +4,10 @@
 </picture>
 
 <p align="center">
-  <a href="mailto:contact@zenovangue.com">
-  <picture>
+  <a href="mailto:contact@zenovangue.com"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-email-d.svg">
     <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-email-l.svg" alt="Email: contact@zenovangue.com" height="40">
-  </picture>
-  </a>
+  </picture></a>
   &nbsp;
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-discord-d.svg">
@@ -58,7 +56,10 @@ My approach is systems-first: explicit specifications, measurable targets, stric
     <th align="left">Area</th>
     <th align="left">What I work on</th>
     <td rowspan="8" align="center" valign="middle" width="30%">
-      <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/blobs.webp" alt="Animated gradient blobs" width="100%">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/blobs-d.webp">
+        <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/blobs-l.webp" alt="Animated monochrome gradient blobs" width="100%">
+      </picture>
     </td>
   </tr>
   <tr><td><b>Systems</b></td><td>Rust execution engines, shared-memory IPC, zero-copy data paths, kernel-bypass I/O</td></tr>
@@ -105,21 +106,31 @@ Every engagement comes with source code, documentation and written acceptance cr
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=rust,go,py,cs,cpp,ts,js&theme=dark" alt="Languages">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/stack-languages-d.svg">
+  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/stack-languages-l.svg" alt="Languages: Rust, Go, Python, C#, C++, TypeScript, JavaScript">
+</picture>
 
 **Web and desktop**
 
-<img src="https://skillicons.dev/icons?i=html,css,react,svelte,threejs,tauri&theme=dark" alt="Web and desktop">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/stack-web-d.svg">
+  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/stack-web-l.svg" alt="Web and desktop: HTML, CSS, React, Svelte, Three.js, Tauri">
+</picture>
 
 **Backend and databases**
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,postgres,mysql,mongodb,redis,sqlite,nginx&theme=dark" alt="Backend and databases">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/stack-backend-d.svg">
+  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/stack-backend-l.svg" alt="Backend and databases: Node.js, Express, FastAPI, PostgreSQL, MySQL, MongoDB, Redis, SQLite, Nginx">
+</picture>
 
 **Tools and environment**
 
-<p>
-  <img src="https://skillicons.dev/icons?i=linux,git,github,vscode,docker,pytorch&theme=dark" alt="Tools and environment" height="48"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/claude.svg" alt="Claude" height="48">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/stack-tools-d.svg">
+  <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/stack-tools-l.svg" alt="Tools: Linux, Git, GitHub, Docker, PyTorch, Claude">
+</picture>
 
 **Libraries, frameworks and data**
 
@@ -245,8 +256,10 @@ Every engagement comes with source code, documentation and written acceptance cr
 </picture>
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=zenovangue&show_icons=true&bg_color=000000&title_color=ffffff&text_color=a1a1aa&icon_color=00e5ff&border_color=27272a" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zenovangue&layout=compact&bg_color=000000&title_color=ffffff&text_color=a1a1aa&border_color=27272a" alt="Top languages">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=zenovangue&show_icons=true&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=a1a1aa&icon_color=d4d4d8">
+    <img src="https://github-readme-stats.vercel.app/api?username=zenovangue&show_icons=true&hide_border=true&bg_color=00000000&title_color=0a0a0a&text_color=52525b&icon_color=3f3f46" alt="GitHub stats" height="165">
+  </picture>
 </p>
 
 <a name="availability"></a>
