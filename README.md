@@ -1,32 +1,9 @@
 <p align="center">
-  <a href="mailto:contact@zenovangue.com"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-email-d.svg">
-    <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-email-l.svg" alt="Email: contact@zenovangue.com" height="40">
-  </picture></a>
-  &nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-discord-d.svg">
-    <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-discord-l.svg" alt="Discord: zenovangue" height="40">
-  </picture>
-  &nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-hours-d.svg">
-    <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-hours-l.svg" alt="Working hours: CET / CEST" height="40">
-  </picture>
+<a href="mailto:contact@zenovangue.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-email-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-email-l.svg" alt="Email: contact@zenovangue.com" width="36.43%"></picture></a><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-discord-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-discord-l.svg" alt="Discord: zenovangue" width="20.48%"></picture><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-hours-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-hours-l.svg" alt="Working hours: CET / CEST" width="17.86%"></picture>
 </p>
 
 <p align="center">
-  <a href="#about"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-about-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-about-l.svg" alt="About" height="34"></picture></a>
-  &nbsp;
-  <a href="#engagements"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-engagements-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-engagements-l.svg" alt="Engagements" height="34"></picture></a>
-  &nbsp;
-  <a href="#process"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-process-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-process-l.svg" alt="Process" height="34"></picture></a>
-  &nbsp;
-  <a href="#tech-stack"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-stack-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-stack-l.svg" alt="Stack" height="34"></picture></a>
-  &nbsp;
-  <a href="#depth"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-depth-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-depth-l.svg" alt="Depth" height="34"></picture></a>
-  &nbsp;
-  <a href="#contact"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-contact-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/nav-contact-l.svg" alt="Contact" height="34"></picture></a>
+<a href="#about"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-nav-about-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-nav-about-l.svg" alt="About" width="10.60%"></picture></a><a href="#engagements"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-nav-engagements-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-nav-engagements-l.svg" alt="Engagements" width="17.02%"></picture></a><a href="#process"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-nav-process-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-nav-process-l.svg" alt="Process" width="12.74%"></picture></a><a href="#tech-stack"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-nav-stack-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-nav-stack-l.svg" alt="Stack" width="10.60%"></picture></a><a href="#depth"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-nav-depth-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-nav-depth-l.svg" alt="Depth" width="10.60%"></picture></a><a href="#contact"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-nav-contact-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-nav-contact-l.svg" alt="Contact" width="12.74%"></picture></a>
 </p>
 
 <p align="center">
@@ -51,25 +28,9 @@ My approach is systems-first: explicit specifications, measurable targets, stric
 </picture>
 </p>
 
-<table>
-  <tr>
-    <th align="left">Area</th>
-    <th align="left">What I work on</th>
-    <td rowspan="8" align="center" valign="middle" width="30%">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/blobs-d.webp">
-        <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/blobs-l.webp" alt="Animated monochrome gradient blobs" width="100%">
-      </picture>
-    </td>
-  </tr>
-  <tr><td><b>Systems</b></td><td>Rust execution engines, shared-memory IPC, zero-copy data paths, kernel-bypass I/O</td></tr>
-  <tr><td><b>Quant research</b></td><td>Regime detection (HMM, HSMM, Kalman), walk-forward validation, CPCV, Monte Carlo</td></tr>
-  <tr><td><b>Strategy engineering</b></td><td>Turning visual (price-action) strategies into precise, testable trading algorithms, filters and adaptive indicators</td></tr>
-  <tr><td><b>Trading platforms</b></td><td>MT5 (MQL5), cTrader (cAlgo C#), NinjaTrader, TradingView (Pine Script v6), NautilusTrader</td></tr>
-  <tr><td><b>Custom platforms</b></td><td>Research and execution platforms, FIX protocol connectivity, CLI tools and GUI applications</td></tr>
-  <tr><td><b>Full-stack web</b></td><td>Complete websites and web applications: frontend, backend APIs, databases, with security and encryption</td></tr>
-  <tr><td><b>Desktop</b></td><td>Tauri desktop applications, PySide6 trading workstations</td></tr>
-</table>
+<p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/table-areas-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/table-areas-l.svg" alt="Areas: Systems, Quant research, Strategy engineering, Trading platforms, Custom platforms, Full-stack web, Desktop" width="62.00%"></picture><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/blobs-d.webp"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/blobs-l.webp" alt="Animated monochrome gradient blobs" width="35.50%"></picture>
+</p>
 
 <a name="engagements"></a>
 <picture>
@@ -77,12 +38,9 @@ My approach is systems-first: explicit specifications, measurable targets, stric
   <img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/h-engagements-l.svg" alt="Engagements" width="100%">
 </picture>
 
-| Engagement | What you get |
-| :--- | :--- |
-| **Strategy to algorithm** | A visual or discretionary strategy turned into exact rules, filters and adaptive indicators, delivered as Pine Script v6, MQL5 or cAlgo C#, with the same logic across platforms |
-| **Trading platform build** | A custom research or execution platform: data pipeline, backtesting, FIX or broker connectivity, risk controls, delivered as CLI and/or GUI |
-| **Full-stack product** | A website or web application end to end: frontend, backend API, database, authentication, encryption and deployment |
-| **Validation and hardening** | Walk-forward, CPCV and Monte Carlo testing, overfitting detection and performance work for existing systems |
+<p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/table-engagements-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/table-engagements-l.svg" alt="Engagements: strategy to algorithm, trading platform build, full-stack product, validation and hardening" width="100.00%"></picture>
+</p>
 
 Every engagement comes with source code, documentation and written acceptance criteria.
 
@@ -134,12 +92,9 @@ Every engagement comes with source code, documentation and written acceptance cr
 
 **Libraries, frameworks and data**
 
-| Category | Tools |
-| :--- | :--- |
-| **Rust** | `Burn` · `wgpu` · `FlatBuffers` · `memmap2` · `Tauri 2` |
-| **Python** | `Polars` · `Numba` · `LightGBM` · `Stable-Baselines3` · `PySide6` · `vn.py` |
-| **Formats and runtime** | `Parquet` · `ONNX` |
-| **Data sources** | `Dukascopy` tick data · `cTrader Open API` · `Kaggle` GPU notebooks |
+<p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/table-libraries-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/table-libraries-l.svg" alt="Libraries and data: Rust, Python, formats and runtime, data sources" width="100.00%"></picture>
+</p>
 
 <a name="depth"></a>
 <picture>
@@ -281,11 +236,7 @@ European time (CET / CEST). Async-friendly and documentation-first. Email or Dis
 </picture>
 
 <p align="center">
-  <a href="mailto:contact@zenovangue.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-email-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-email-l.svg" alt="Email: contact@zenovangue.com" height="40"></picture></a>
-  &nbsp;
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-discord-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-discord-l.svg" alt="Discord: zenovangue" height="40"></picture>
-  &nbsp;
-  <a href="https://github.com/zenovangue"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-github-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/badge-github-l.svg" alt="GitHub: zenovangue" height="40"></picture></a>
+<a href="mailto:contact@zenovangue.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-email-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-email-l.svg" alt="Email: contact@zenovangue.com" width="36.43%"></picture></a><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-discord-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-discord-l.svg" alt="Discord: zenovangue" width="20.48%"></picture><a href="https://github.com/zenovangue"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-github-d.svg"><img src="https://raw.githubusercontent.com/zenovangue/zenovangue/main/assets/bar-github-l.svg" alt="GitHub: zenovangue" width="31.90%"></picture></a>
 </p>
 
 <p align="center">
