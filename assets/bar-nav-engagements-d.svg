@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="143" height="40" viewBox="0 0 143 40" role="img" aria-label="ENGAGEMENTS">
+  <style>.t{font-family:"Segoe UI","Helvetica Neue",Arial,sans-serif;font-size:12.5px;font-weight:600;letter-spacing:1.4px;fill:#fafafa}</style>
+  <path d="M0 0.7 H143 M0 39.3 H143" fill="none" stroke="#d4d4d8" stroke-opacity="0.5" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M142.3 0.7 V39.3" stroke="#d4d4d8" stroke-opacity="0.5" stroke-width="1.3"/>
+  <text class="t" x="72.4" y="24.2" text-anchor="middle">ENGAGEMENTS</text>
+</svg>

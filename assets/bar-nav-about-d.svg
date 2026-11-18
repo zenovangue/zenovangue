@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="89" height="40" viewBox="0 0 89 40" role="img" aria-label="ABOUT">
+  <style>.t{font-family:"Segoe UI","Helvetica Neue",Arial,sans-serif;font-size:12.5px;font-weight:600;letter-spacing:1.4px;fill:#fafafa}</style>
+  <path d="M89 0.7 H20.0 A19.3 19.3 0 0 0 20.0 39.3 H89" fill="none" stroke="#d4d4d8" stroke-opacity="0.5" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M88.3 0.7 V39.3" stroke="#d4d4d8" stroke-opacity="0.5" stroke-width="1.3"/>
+  <text class="t" x="45.4" y="24.2" text-anchor="middle">ABOUT</text>
+</svg>
